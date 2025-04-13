@@ -1,0 +1,19 @@
+[data-md-color-scheme="youtube"] {
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+    background: linear-gradient(to right, rgba(255, 204, 0, 0.1), rgba(255, 102, 178, 0.1)); /* 使用 rgba 表示颜色，最后一个参数是透明度 */
+  }
+
+p{
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+/* 居中显示所有图片 */
+img {
+  display: block;         /* 将图片转换为块级元素 */
+  margin-left: auto;      /* 设置左边距自动 */
+  margin-right: auto;     /* 设置右边距自动 */
+}
+
+  
