@@ -1,0 +1,163 @@
+site_name: EEStUdy Place
+site_description: The learning site you are viewing is created by EESU Academic Department. It is a place for students to learn and share knowledge.
+repo_name: ZJU-EESUAD/EEStUdy-Place
+repo_url: https://github.com/ZJU-EESUAD/EEStUdy-Place
+copyright: Copyright &copy; EESUAD
+
+nav:
+  - Home: index.md
+  - About: 
+    - 关于网站: About/关于网站.md
+    - 关于我们: About/关于我们.md
+  - All In One: 
+    - About: All In One/About.md
+    - CC98 全科目就读感想: All In One/CC98.md
+    - 个人网站汇总帖: All In One/Website.md
+    - 课程资料整理: All In One/资料整理.md
+  - 通识必修课:
+    - 微积分: 
+      - 微积分(甲)I、II: 通识必修课/微积分/微积分（甲）.md
+      - 微积分(甲)II: 通识必修课/微积分/微积分(甲)II.md
+    - 大学物理: 通识必修课/大学物理/大学物理.md
+    - 毛泽东思想概论: 通识必修课/毛泽东思想概论/毛泽东思想概论.md
+  - 专业基础课:
+    - 电路与电子技术: 专业基础课/电路与电子技术I、II/电路与电子技术I、II.md
+    - 复变函数与积分变换: 专业基础课/复变函数与积分变换/复变函数与积分变换.md
+    - 概率论与数理统计: 专业基础课/概率论与数理统计/概率论与数理统计.md
+  - 专业必修课:
+    - 电网络分析: 专业必修课/电网络分析/电网络分析.md
+    - 工程电磁场与波: 专业必修课/工程电磁场与波/工程电磁场与波.md
+    - 微机原理与应用:
+      - 微机原理与应用: 专业必修课/微机原理与应用/微机原理与应用.md
+      - 微处理器原理及应用: 专业必修课/微机原理与应用/微处理器原理及应用.md
+      - 微机原理与接口技术: 专业必修课/微机原理与应用/微机原理与接口技术.md
+    - 控制理论（乙）: 专业必修课/控制理论（乙）/控制理论（乙）.md
+    - 电力电子技术: 
+      - EE3202M 电力电子技术: 专业必修课/电力电子技术/EE3202M 电力电子技术.md
+      - EE3501M 电力电子技术Ⅰ: 专业必修课/电力电子技术/EE3501M 电力电子技术Ⅰ.md
+    - 人工智能与物联网: 专业必修课/人工智能与物联网/人工智能与物联网.md
+    - 信号分析与处理: 专业必修课/信号分析与处理/信号分析与处理.md
+    - 电气工程及其自动化:
+      - 电机控制: 专业必修课/电气工程及其自动化/电机控制/电机控制.md
+      - 电机系统建模与分析: 专业必修课/电气工程及其自动化/电机系统建模与分析/电机系统建模与分析.md
+      - 电机学: 专业必修课/电气工程及其自动化/电机学/电机学.md
+      - 电机与拖动: 专业必修课/电气工程及其自动化/电机与拖动/电机与拖动.md
+      - 电力系统稳态分析: 专业必修课/电气工程及其自动化/电力系统稳态分析/电力系统稳态分析.md
+      - 电力系统暂态分析: 专业必修课/电气工程及其自动化/电力系统暂态分析/电力系统暂态分析.md
+      - 计算方法: 专业必修课/电气工程及其自动化/计算方法/计算方法.md
+    - 电子信息工程: 
+      - 离散数学: 专业必修课/电子信息工程/离散数学/离散数学.md
+      - 信息论与编码: 专业必修课/电子信息工程/信息论与编码/信息论与编码.md
+      - 半导体物理: 专业必修课/电子信息工程/半导体物理/半导体物理.md
+      - 计算机网络与通信: 专业必修课/电子信息工程/计算机网络与通信/计算机网络与通信.md
+      - 通信原理: 专业必修课/电子信息工程/通信原理/通信原理.md
+      - 电子器件与集成电路: 专业必修课/电子信息工程/电力电子器件及其集成电路/电力电子器件及其集成电路.md
+    - 自动化:
+      - 人工智能与机器学习: 专业必修课/自动化/人工智能与机器学习/人工智能与机器学习.md
+  - 专业选修课: 
+    - 电气工程及其自动化:
+      - 高电压技术: 专业选修课/电气工程及其自动化/高电压技术/高电压技术.md
+      - 现代电机CAD技术: 专业选修课/电气工程及其自动化/现代电机CAD技术/现代电机CAD技术.md
+      - 发电厂电气系统: 专业选修课/电气工程及其自动化/发电厂电气系统/发电厂电气系统.md
+      - 电气装备计算机控制技术: 专业选修课/电气工程及其自动化/电气装备计算机控制技术/电气装备计算机控制技术.md
+    - 电子信息工程: 
+      - 电子测量与智能仪器: 专业选修课/电子信息工程/电子测量与智能仪器/电子测量与智能仪器.md
+      - 计算机软件技术基础: 专业选修课/电子信息工程/计算机软件技术基础/计算机软件技术基础.md
+      - 科学创新方法论及实践: 专业选修课/电子信息工程/科学创新方法论及实践/科学创新方法论及实践.md
+      - DSP原理与应用: 专业选修课/电子信息工程/DSP原理与应用/DSP原理与应用.md
+    - 自动化:
+      - 数字图像处理与机器视觉: 专业选修课/自动化/数字图像处理与机器视觉/数字图像处理与机器视觉.md
+  - EEFuture:
+    - 逐梦手册: EEFuture/逐梦手册.md
+    - 学习手册: EEFuture/学习手册.md
+  - 我要投稿！: 我想投稿！/我想投稿.md
+  - 我要反馈！: 我要建议/我要建议.md
+
+
+
+theme:
+  name: material
+  language: zh
+  custom_dir: material/overrides
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - content.code.annotate
+    - toc.follow
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: blue #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
+      accent: indigo # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
+      accent:  blue # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_javascript:
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - assets/javascripts/katex.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tasklist
+  - pymdownx.extra
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      auto_title: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZJU-EESUAD
+
+plugins:
+  - search

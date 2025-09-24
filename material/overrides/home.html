@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+{{super()}}
+
+<style>
+  .md-header {
+    position: initial
+  }
+
+  .md-main__inner {
+    margin: 0
+  }
+
+  .md-content {
+    display: none
+  }
+
+  body {
+    background-color: rgb(31, 48, 85);
+    /* 设置背景颜色为黑色 */
+    color: white;
+    /* 设置文字颜色为白色 */
+  }
+
+  @media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+  }
+
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none·
+    }
+  }
+</style>
+
+<link href="assets/stylesheets/home.css" rel="stylesheet" type="text/css">
+<section class="hero" id="hero">
+  <h2 class="typewriter hero_header" id="typewriter-header">EEStUdy Place <span class="light">by</span> <span
+      style="color: #c41502e0;">EESUAD</span>
+  </h2>
+  <br>
+  <p class="typewriter tagline" id="typewriter-tagline">Share the knowledge with <span class="blue">you</span></p>
+</section>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function typeWriter(element, text, speed, callback) {
+      let i = 0;
+      let isTag = false;
+      let temp = '';
+
+      function type() {
+        if (i < text.length) {
+          let char = text.charAt(i);
+          temp += char;
+
+          if (char === '<') {
+            isTag = true;
+          } else if (char === '>') {
+            isTag = false;
+            element.innerHTML = temp;  // Only update innerHTML when the tag is complete
+          } else if (!isTag) {
+            element.innerHTML = temp;
+          }
+          i++;
+          if (!isTag) setTimeout(type, speed);
+          else type();
+        } else {
+          if (callback) callback();
+        }
+      }
+      type();
+    }
+
+    function startTyping() {
+      const headerElement = document.querySelector('.hero_header');
+      const taglineElement = document.querySelector('.tagline');
+
+      const headerHTML = 'EEStUdy Place <span class="light">by</span> <span style="color: #c41502e0;">EESUAD</span>';
+      const taglineHTML = 'Share the knowledge with <span class="blue">you</span>';
+
+      headerElement.textContent = '';
+      taglineElement.textContent = '';
+
+      typeWriter(headerElement, headerHTML, 150, () => {
+        headerElement.classList.remove('typewriter');
+        console.log('Typing complete, pausing cursor animation for', headerElement);
+        typeWriter(taglineElement, taglineHTML, 150);
+      });
+    }
+
+    startTyping();
+    setInterval(startTyping, 20000); // Repeat every 20 seconds
+  });
+</script>
+
+<section class="about" id="about">
+  <h2>关于 <span style="letter-spacing: 4px;  color: #eae1fe;">EEStUdy Place</span></h2>
+  <p>EEStUdy Place 是由浙江大学<span style="font-weight: bold;color: #fffce4;">电气工程学院学生会学术部</span>搭建的资源的平台。
+    我们将总结电气工程学院所包含三个专业（电气工程及其自动化、电子信息工程、自动化）的所有专业课程的课程攻略、学长学姐心得等内容</p>
+  <p>无论您是在寻找教程、探索答案，还是只是了解电气工程学院，EEStUdy Place 都希望能满足您的需求。</p>
+  <p>我们也希望你能成为 网站成员的一部分，
+    点击<a href="./我想投稿！/我想投稿/index.html" style="font-weight:bold; color: aqua;">我要投稿！</a>查看详情</p>
+</section>
+
+
+{% endblock %}
+
+{% block content %}
+{% endblock %}
