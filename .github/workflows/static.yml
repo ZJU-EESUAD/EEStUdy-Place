@@ -22,8 +22,8 @@ jobs:
     
       - run: pip install -r requirements.txt
     
-      # - name: Create CNAME file
-      #   run: echo "www.eestudy-place.com" > docs/CNAME   # Adjust the path if your configuration is different
+      - name: Create CNAME file
+        run: echo "www.eestudy.com.cn" > docs/CNAME   # Adjust the path if your configuration is different
     
       - name: Deploy with MkDocs
         # run: export JUPYTER_PLATFORM_DIRS=1 && export MKDOCS_GIT_COMMITTERS_APIKEY=${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }} && 
