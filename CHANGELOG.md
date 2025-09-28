@@ -16,3 +16,5 @@
 ## CHANGELOG
 - [x] 2025.9.24   文件与笔记解耦，文件使用filebrower进行管理。
 - [ ] 2025.9.24   使用Github Actions 更新工作流，更便于更新文档。
+- [x] 2025.9.28   二级域名file.eestudy-place.com配置完成
+- [x] 2025.9.28   由于网站配置未完成，在home.html中增加一段提示词
