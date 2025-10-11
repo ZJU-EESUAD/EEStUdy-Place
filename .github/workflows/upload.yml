@@ -3,9 +3,10 @@
 name: upload-to-server
 
 on:
-  push:
-    branches:
-      - gh-pages
+  workflow_run:
+    workflows: ["deploy"]
+    types:
+      - completed
 
 jobs:
   upload:
