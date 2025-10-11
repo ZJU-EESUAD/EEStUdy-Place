@@ -53,6 +53,7 @@ nav:
       - 通信原理: 专业必修课/电子信息工程/通信原理/通信原理.md
       - 电子器件与集成电路: 专业必修课/电子信息工程/电力电子器件及其集成电路/电力电子器件及其集成电路.md
     - 自动化:
+      - 嵌入式系统: 专业必修课/自动化/嵌入式系统/嵌入式系统.md
       - 人工智能与机器学习: 专业必修课/自动化/人工智能与机器学习/人工智能与机器学习.md
   - 专业选修课: 
     - 电气工程及其自动化:
@@ -126,6 +127,7 @@ extra_javascript:
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
   - assets/stylesheets/extra.css
+  - assets/stylesheets/card.css
 
 markdown_extensions:
   - admonition
