@@ -4,22 +4,58 @@
 #### 电路原理
 
 * **21级 金怡婷** 
-	* [第四章](./电路原理/第四章.pdf)
-	* [第八章和第六章](./电路原理/第八章和第六章.pdf)
+
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/电路原理/第四章.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/电路原理/第八章和第六章.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
+
+
 
 #### 数电
 
-* **21级 金怡婷** [数电](./数电/数电.pdf)
-* **22级 会飞的鱼** [电路与电子技术2（爱班数电笔记）](./数电/电路与电子技术2.pdf)
-* **23级 鲸鱼** [数电](./数电/电路与电子技术1.pdf)
+* **21级 金怡婷** 
+
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/数电.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
+
+* **22级 会飞的鱼** 
+
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/电路与电子技术2.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
+
+* **23级 鲸鱼** 
+
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/电路与电子技术1.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
 
 #### 模电
 
 * **21级 金怡婷**
-  1. [半导体部分笔记](./模电/半导体部分笔记.pdf)
-  2. [模电复习笔记](./模电/模电复习笔记.pdf)
+半导体部分笔记
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/模电/半导体部分笔记.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
+模电复习笔记
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/模电/模电复习笔记.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+
 * **23级 鲸鱼**
-* [模电课程笔记](./模电/电路与电子技术2.pdf)
+模电课程笔记
+<iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/模电/电路与电子技术2.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
 
 
 ## 课程感想
