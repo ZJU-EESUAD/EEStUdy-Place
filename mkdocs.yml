@@ -11,12 +11,13 @@ nav:
     - 关于我们: About/关于我们.md
     - 贡献指南: About/Contributing.md
     - 课程模板: About/Template.md
+    - 我要反馈: About/Issue.md
     - 致谢: About/Authors.md
-  - All In One: 
-    - About: All In One/About.md
-    - CC98 全科目就读感想: All In One/CC98.md
-    - 个人网站汇总帖: All In One/Website.md
-    - 课程资料整理: All In One/资料整理.md
+  - All In One:
+    - All_In_One/index.md
+    - CC98 全科目就读感想: All_In_One/CC98.md
+    - 个人网站汇总帖: All_In_One/Notes.md
+    - 课程资料整理: All_In_One/Resources.md
   - 通识必修课:
     - 微积分: 
       - 微积分(甲)I、II: 通识必修课/微积分/微积分（甲）.md
@@ -74,7 +75,7 @@ nav:
   - EEFuture:
     - 逐梦手册: EEFuture/逐梦手册.md
     - 学习手册: EEFuture/学习手册.md
-  - 资源站: https://file.eestudy-place.com
+  - 资源站: http://file.eestudy-place.com/files/files/
 
 
 
@@ -86,6 +87,7 @@ theme:
     - header.autohide
     - navigation.instant
     - navigation.instant.progress
+    - navigation.indexes  # 在导航中显示索引页, 即index.md不占用新的页面
     - navigation.tracking
     - content.code.annotate
     - toc.follow
@@ -126,10 +128,12 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - assets/javascripts/katex.js
 
+
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
   - assets/stylesheets/extra.css
-  - assets/stylesheets/card.css
+  - assets/stylesheets/card.css # 课程笔记卡片
+  - assets/stylesheets/flink.css # 友链卡片
 
 markdown_extensions:
   - admonition
