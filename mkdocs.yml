@@ -9,6 +9,8 @@ nav:
   - About: 
     - 关于网站: About/关于网站.md
     - 关于我们: About/关于我们.md
+    - 贡献指南: About/Contributing.md
+    - 课程模板: About/Template.md
   - All In One: 
     - About: All In One/About.md
     - CC98 全科目就读感想: All In One/CC98.md
@@ -71,9 +73,7 @@ nav:
   - EEFuture:
     - 逐梦手册: EEFuture/逐梦手册.md
     - 学习手册: EEFuture/学习手册.md
-  - 我要投稿！: 我想投稿！/我想投稿.md
-  - 我要反馈！: 我要建议/我要建议.md
-  - 资源站: file.eestudy-place.com
+  - 资源站: https://file.eestudy-place.com
 
 
 
@@ -156,6 +156,7 @@ markdown_extensions:
 
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - mdx_truly_sane_lists # 支持多级列表
 
 extra:
   social:
