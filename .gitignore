@@ -25,3 +25,6 @@ __pycache__/
 # Node Modules
 **/node_modules/
 **/node_modules/**
+
+# 忽略网站维护文档
+网站维护文档_EEStUdy-Place.md
