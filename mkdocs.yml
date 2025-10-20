@@ -3,7 +3,7 @@ site_description: The learning site you are viewing is created by EESU Academic 
 repo_name: ZJU-EESUAD/EEStUdy-Place
 repo_url: https://github.com/ZJU-EESUAD/EEStUdy-Place
 copyright: Copyright &copy; EESUAD
-
+use_directory_urls: false
 nav:
   - Home: index.md
   - About: 
@@ -35,18 +35,19 @@ nav:
     - 概率论与数理统计: 专业基础课/概率论与数理统计/概率论与数理统计.md
   - 专业必修课:
     - 专业必修课/index.md
-    - 电网络分析: 专业必修课/电网络分析/电网络分析.md
-    - 工程电磁场与波: 专业必修课/工程电磁场与波/工程电磁场与波.md
-    - 微机原理与应用:
-      - 微机原理与应用: 专业必修课/微机原理与应用/微机原理与应用.md
-      - 微处理器原理及应用: 专业必修课/微机原理与应用/微处理器原理及应用.md
-      - 微机原理与接口技术: 专业必修课/微机原理与应用/微机原理与接口技术.md
-    - 控制理论（乙）: 专业必修课/控制理论（乙）/控制理论（乙）.md
-    - 电力电子技术: 
-      - EE3202M 电力电子技术: 专业必修课/电力电子技术/EE3202M 电力电子技术.md
-      - EE3501M 电力电子技术Ⅰ: 专业必修课/电力电子技术/EE3501M 电力电子技术Ⅰ.md
-    - 人工智能与物联网: 专业必修课/人工智能与物联网/人工智能与物联网.md
-    - 信号分析与处理: 专业必修课/信号分析与处理/信号分析与处理.md
+    - 公共: 
+      - 电网络分析: 专业必修课/电网络分析/电网络分析.md
+      - 工程电磁场与波: 专业必修课/工程电磁场与波/工程电磁场与波.md
+      - 微机原理与应用:
+        - 微机原理与应用: 专业必修课/微机原理与应用/微机原理与应用.md
+        - 微处理器原理及应用: 专业必修课/微机原理与应用/微处理器原理及应用.md
+        - 微机原理与接口技术: 专业必修课/微机原理与应用/微机原理与接口技术.md
+      - 控制理论（乙）: 专业必修课/控制理论（乙）/控制理论（乙）.md
+      - 电力电子技术: 
+        - EE3202M 电力电子技术: 专业必修课/电力电子技术/EE3202M 电力电子技术.md
+        - EE3501M 电力电子技术Ⅰ: 专业必修课/电力电子技术/EE3501M 电力电子技术Ⅰ.md
+      - 人工智能与物联网: 专业必修课/人工智能与物联网/人工智能与物联网.md
+      - 信号分析与处理: 专业必修课/信号分析与处理/信号分析与处理.md
     - 电气工程及其自动化:
       - 电机控制: 专业必修课/电气工程及其自动化/电机控制/电机控制.md
       - 电机系统建模与分析: 专业必修课/电气工程及其自动化/电机系统建模与分析/电机系统建模与分析.md
@@ -143,6 +144,8 @@ extra_css:
   - assets/stylesheets/extra.css
   - assets/stylesheets/card.css # 课程笔记卡片
   - assets/stylesheets/flink.css # 友链卡片
+  - assets/stylesheets/fold_toc.css
+  - assets/stylesheets/toc_extra.css
 
 markdown_extensions:
   - admonition
@@ -179,3 +182,8 @@ extra:
 
 plugins:
   - search
+  # - changelog
+
+hooks:
+  # toc页面，改编自https://github.com/TonyCrane/note/tree/master/hooks，效果还不稳定
+  - hooks/toc_manager.py
