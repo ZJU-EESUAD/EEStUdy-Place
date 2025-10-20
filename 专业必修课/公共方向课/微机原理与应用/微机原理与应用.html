@@ -1,0 +1,4435 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The learning site you are viewing is created by EESU Academic Department. It is a place for students to learn and share knowledge.">
+      
+      
+      
+      
+        <link rel="prev" href="%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8.html">
+      
+      
+        <link rel="next" href="%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF.html">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>微机原理与应用 - EEStUdy Place</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/card.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/flink.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/fold_toc.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/toc_extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../index.html" title="EEStUdy Place" class="md-header__button md-logo" aria-label="EEStUdy Place" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EEStUdy Place
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              微机原理与应用
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ZJU-EESUAD/EEStUdy-Place" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ZJU-EESUAD/EEStUdy-Place
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../About/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99.html" class="md-tabs__link">
+          
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../All_In_One/index.html" class="md-tabs__link">
+          
+  
+    
+  
+  All In One
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/index.html" class="md-tabs__link">
+          
+  
+    
+  
+  通识必修课
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/index.html" class="md-tabs__link">
+          
+  
+    
+  
+  专业基础课
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../index.html" class="md-tabs__link">
+          
+  
+    
+  
+  专业必修课
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/index.html" class="md-tabs__link">
+          
+  
+    
+  
+  专业选修课
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/index.html" class="md-tabs__link">
+          
+  
+    
+  
+  实践课程
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../EEFuture/%E9%80%90%E6%A2%A6%E6%89%8B%E5%86%8C.html" class="md-tabs__link">
+          
+  
+    
+  
+  EEFuture
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="http://file.eestudy-place.com/files/files/" class="md-tabs__link">
+        
+  
+    
+  
+  资源站
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../index.html" title="EEStUdy Place" class="md-nav__button md-logo" aria-label="EEStUdy Place" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    EEStUdy Place
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ZJU-EESUAD/EEStUdy-Place" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ZJU-EESUAD/EEStUdy-Place
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    关于网站
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    关于我们
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/Contributing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    贡献指南
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/Template.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    课程模板
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/Issue.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    我要反馈
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../About/Authors.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    致谢
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../All_In_One/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    All In One
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            All In One
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../All_In_One/%E5%9F%B9%E5%85%BB%E6%96%B9%E6%A1%88.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    培养方案
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../All_In_One/CC98.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CC98 全科目就读感想
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../All_In_One/Notes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    个人网站汇总帖
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../All_In_One/Resources.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    课程资料整理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../All_In_One/Links.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    友链
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    通识必修课
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            通识必修课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    微积分
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            微积分
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%86%EF%BC%88%E7%94%B2%EF%BC%89.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    微积分(甲)I、II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%86%28%E7%94%B2%29II.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    微积分(甲)II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    大学物理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    毛泽东思想概论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    专业基础课
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            专业基础课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    常微分方程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83/%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    工程训练
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/%E5%B7%A5%E7%A8%8B%E5%9B%BE%E5%AD%A6/%E5%B7%A5%E7%A8%8B%E5%9B%BE%E5%AD%A6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    工程图学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2/%E5%A4%8D%E5%8F%98%E5%87%BD%E6%95%B0%E4%B8%8E%E7%A7%AF%E5%88%86%E5%8F%98%E6%8D%A2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    复变函数与积分变换
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80%E8%AF%BE/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    概率论与数理统计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    专业必修课
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            专业必修课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    公共方向课
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            公共方向课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E7%89%A9%E8%81%94%E7%BD%91/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E7%89%A9%E8%81%94%E7%BD%91.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    人工智能与物联网
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%BF%A1%E5%8F%B7%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86/%E4%BF%A1%E5%8F%B7%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%84%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    信号分析与处理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%B7%A5%E7%A8%8B%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2/%E5%B7%A5%E7%A8%8B%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    工程电磁场与波
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_4" id="__nav_6_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    微机原理与应用
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            微机原理与应用
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    微处理器原理及应用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    微机原理与应用
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    微机原理与应用
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程学习内容
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      任课教师
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      分数构成
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程笔记
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程经验分享
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、51单片机
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、51单片机">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 汇编语言
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 51单片机外设
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 51单片机大作业（期中）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stm32" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、STM32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、STM32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-stm32" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 STM32大作业（期末）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、其他
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cc98" class="md-nav__link">
+    <span class="md-ellipsis">
+      CC98汇总
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    微机原理与接口技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%EF%BC%88%E4%B9%99%EF%BC%89/%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%EF%BC%88%E4%B9%99%EF%BC%89.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    控制理论（乙）
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    数字电路分析与设计
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_7" id="__nav_6_2_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    电力电子技术
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            电力电子技术
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF/EE3202M%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EE3202M 电力电子技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF/EE3501M%20%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E2%85%A0.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EE3501M 电力电子技术Ⅰ——电子信息工程专业必修
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%94%B5%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90/%E7%94%B5%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电网络分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%94%B5%E8%B7%AF%E4%B8%8E%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AFI%E3%80%81II/%E7%94%B5%E8%B7%AF%E4%B8%8E%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AFI%E3%80%81II.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电路与电子技术I、II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    电气工程及其自动化
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            电气工程及其自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E6%9A%82%E6%80%81%E5%88%86%E6%9E%90/%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E6%9A%82%E6%80%81%E5%88%86%E6%9E%90.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电力系统暂态分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E7%A8%B3%E6%80%81%E5%88%86%E6%9E%90/%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E7%A8%B3%E6%80%81%E5%88%86%E6%9E%90.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电力系统稳态分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%9C%BA%E4%B8%8E%E6%8B%96%E5%8A%A8/%E7%94%B5%E6%9C%BA%E4%B8%8E%E6%8B%96%E5%8A%A8.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电机与拖动
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%9C%BA%E5%AD%A6/%E7%94%B5%E6%9C%BA%E5%AD%A6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电机学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%9C%BA%E6%8E%A7%E5%88%B6/%E7%94%B5%E6%9C%BA%E6%8E%A7%E5%88%B6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电机控制
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%BB%BA%E6%A8%A1%E4%B8%8E%E5%88%86%E6%9E%90/%E7%94%B5%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%BB%BA%E6%A8%A1%E4%B8%8E%E5%88%86%E6%9E%90.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电机系统建模与分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计算方法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    电子信息工程
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            电子信息工程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81/%E4%BF%A1%E6%81%AF%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    信息论与编码
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%89%A9%E7%90%86/%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%89%A9%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    半导体物理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E5%8F%8A%E5%85%B6%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF/%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E5%8F%8A%E5%85%B6%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电力电子器件及其集成电路
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    离散数学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E4%BF%A1/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E4%BF%A1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计算机网络与通信
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86/%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    通信原理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    自动化
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AF%BC%E8%AE%BA/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AF%BC%E8%AE%BA.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动化导论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动控制理论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%8E%B0%E4%BB%A3%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA/%E7%8E%B0%E4%BB%A3%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    现代控制理论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动化导论
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%87%AA%E5%8A%A8%E5%8C%96/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E8%B7%B5/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    人工智能进阶与实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    专业选修课
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            专业选修课
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    公共
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            公共
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    信号与系统
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    数值计算方法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    数据结构与算法分析
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8E%9F%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计算机网络原理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E8%BF%90%E7%AD%B9%E5%AD%A6/%E8%BF%90%E7%AD%B9%E5%AD%A6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    运筹学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF-C%2B%2B/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF-C%2B%2B.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    面向对象的编程技术 C++
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E5%85%AC%E5%85%B1/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF-JAVA/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF-JAVA.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    面向对象的编程技术 JAVA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    电气工程及其自动化
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            电气工程及其自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E9%AB%98%E7%94%B5%E5%8E%8B%E6%8A%80%E6%9C%AF/%E9%AB%98%E7%94%B5%E5%8E%8B%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    高电压技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%8E%B0%E4%BB%A3%E7%94%B5%E6%9C%BACAD%E6%8A%80%E6%9C%AF/%E7%8E%B0%E4%BB%A3%E7%94%B5%E6%9C%BACAD%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    现代电机CAD技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%8F%91%E7%94%B5%E5%8E%82%E7%94%B5%E6%B0%94%E7%B3%BB%E7%BB%9F/%E5%8F%91%E7%94%B5%E5%8E%82%E7%94%B5%E6%B0%94%E7%B3%BB%E7%BB%9F.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    发电厂电气系统
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%B0%94%E8%A3%85%E5%A4%87%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF/%E7%94%B5%E6%B0%94%E8%A3%85%E5%A4%87%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电气装备计算机控制技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    电子信息工程
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            电子信息工程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%94%B5%E5%AD%90%E6%B5%8B%E9%87%8F%E4%B8%8E%E6%99%BA%E8%83%BD%E4%BB%AA%E5%99%A8/%E7%94%B5%E5%AD%90%E6%B5%8B%E9%87%8F%E4%B8%8E%E6%99%BA%E8%83%BD%E4%BB%AA%E5%99%A8.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电子测量与智能仪器
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    计算机软件技术基础
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%A7%91%E5%AD%A6%E5%88%9B%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%BA%E5%8F%8A%E5%AE%9E%E8%B7%B5/%E7%A7%91%E5%AD%A6%E5%88%9B%E6%96%B0%E6%96%B9%E6%B3%95%E8%AE%BA%E5%8F%8A%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    科学创新方法论及实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/DSP%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8/DSP%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DSP原理与应用
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AFII/%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AFII.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电力电子技术II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E4%B8%8E%E8%A3%85%E5%A4%87%E7%83%AD%E7%AE%A1%E7%90%86/%E7%94%B5%E5%AD%90%E5%99%A8%E4%BB%B6%E4%B8%8E%E8%A3%85%E5%A4%87%E7%83%AD%E7%AE%A1%E7%90%86.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电子器件与装备热管理
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    自动化
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%85%88%E8%BF%9B%E6%8E%A7%E5%88%B6%E5%9F%BA%E7%A1%80/%E5%85%88%E8%BF%9B%E6%8E%A7%E5%88%B6%E5%9F%BA%E7%A1%80.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    先进控制基础
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%8E%A7%E5%88%B6%E4%B8%8E%E5%86%B3%E7%AD%96%E7%B3%BB%E7%BB%9F%E4%BB%BF%E7%9C%9F/%E6%8E%A7%E5%88%B6%E4%B8%8E%E5%86%B3%E7%AD%96%E7%B3%BB%E7%BB%9F%E4%BB%BF%E7%9C%9F.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    控制与决策系统仿真
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%B8%8E%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E4%B8%8E%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    数字图像处理与机器视觉
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%99%BA%E8%83%BD%E5%88%B6%E9%80%A0%E4%B8%8E%E4%BC%81%E4%B8%9A%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%99%BA%E8%83%BD%E5%88%B6%E9%80%A0%E4%B8%8E%E4%BC%81%E4%B8%9A%E8%87%AA%E5%8A%A8%E5%8C%96.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    智能制造与企业自动化
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF/%E6%99%BA%E8%83%BD%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    智能控制技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%9C%80%E4%BC%98%E6%8E%A7%E5%88%B6%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/%E6%9C%80%E4%BC%98%E6%8E%A7%E5%88%B6%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    最优控制与强化学习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E4%B8%93%E4%B8%9A%E9%80%89%E4%BF%AE%E8%AF%BE/%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E6%B0%94%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF/%E7%94%B5%E6%B0%94%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电气控制技术
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    实践课程
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            实践课程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E7%94%B5%E5%AD%90%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    电子信息工程
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            电子信息工程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%8F%8A%E5%85%B6%E8%87%AA%E5%8A%A8%E5%8C%96/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    电气工程及其自动化
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            电气工程及其自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    自动化
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            自动化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E4%B8%93%E4%B8%9A%E8%AE%A4%E7%9F%A5/%E4%B8%93%E4%B8%9A%E8%AE%A4%E7%9F%A5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    专业认知
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    人工智能与大数据综合实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%99%BA%E8%83%BD%E7%94%B5%E6%B0%94%E5%8F%8A%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5/%E6%99%BA%E8%83%BD%E7%94%B5%E6%B0%94%E5%8F%8A%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    智能电气及自动化综合实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E6%99%BA%E8%83%BD%E7%B3%BB%E7%BB%9F%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E6%99%BA%E8%83%BD%E7%B3%BB%E7%BB%9F%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    机器人与智能系统综合实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AE%9E%E8%AE%AD1/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AE%9E%E8%AE%AD1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动化实训1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AB%9E%E8%B5%9B%E5%AE%9E%E8%AE%AD/%E8%87%AA%E5%8A%A8%E5%8C%96%E7%AB%9E%E8%B5%9B%E5%AE%9E%E8%AE%AD.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动化竞赛实训
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BB%BC%E5%90%88%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5/%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BB%BC%E5%90%88%E5%88%9B%E6%96%B0%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    自动化综合创新实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E4%BC%81%E4%B8%9A%E6%B7%B1%E5%BA%A6%E5%AE%9E%E4%B9%A0/%E4%BC%81%E4%B8%9A%E6%B7%B1%E5%BA%A6%E5%AE%9E%E4%B9%A0.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    企业深度实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%AE%9E%E9%AA%8C%E6%8A%80%E8%83%BD%E8%AE%AD%E7%BB%83/%E5%AE%9E%E9%AA%8C%E6%8A%80%E8%83%BD%E8%AE%AD%E7%BB%83.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    实验技能训练
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    嵌入式系统设计与实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E9%AB%98%E7%BA%A7%E5%AE%9E%E9%AA%8C/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E9%AB%98%E7%BA%A7%E5%AE%9E%E9%AA%8C.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    嵌入式系统高级实验
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E6%B5%8B%E6%8E%A7%E7%B3%BB%E7%BB%9F%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5/%E6%B5%8B%E6%8E%A7%E7%B3%BB%E7%BB%9F%E7%BB%BC%E5%90%88%E5%AE%9E%E8%B7%B5.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    测控系统综合实践
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83/%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E8%AE%AD%E7%BB%83.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电子工程训练
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%AE%9E%E4%B9%A0/%E7%94%B5%E5%B7%A5%E7%94%B5%E5%AD%90%E5%AE%9E%E4%B9%A0.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    电工电子实习
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96/%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83/%E7%A7%91%E7%A0%94%E8%AE%AD%E7%BB%83.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    科研训练
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B/%E7%AB%9E%E8%B5%9B.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    学科竞赛
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EEFuture
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            EEFuture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EEFuture/%E9%80%90%E6%A2%A6%E6%89%8B%E5%86%8C.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    逐梦手册
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EEFuture/%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    学习手册
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../EEFuture/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E4%BB%8B%E7%BB%8D.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    实验室介绍
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://file.eestudy-place.com/files/files/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    资源站
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程学习内容
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      任课教师
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      分数构成
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程笔记
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      课程经验分享
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      一、51单片机
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、51单片机">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 汇编语言
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 51单片机外设
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 51单片机大作业（期中）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stm32" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、STM32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、STM32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-stm32" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 STM32大作业（期末）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、其他
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cc98" class="md-nav__link">
+    <span class="md-ellipsis">
+      CC98汇总
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="_1">微机原理与应用</h1>
+<h2 id="_2">课程学习内容</h2>
+<p>&lt;课程学习内容&gt;</p>
+<h2 id="_3">任课教师</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">&lt;教师 1&gt;</label><label for="__tabbed_1_2">&lt;教师 2&gt;</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>&lt;授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等&gt;</p>
+</div>
+<div class="tabbed-block">
+<p>&lt;授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等&gt;</p>
+</div>
+</div>
+</div>
+<h2 id="_4">分数构成</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">&lt;教师 1&gt;</label><label for="__tabbed_2_2">&lt;教师 2&gt;</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>&lt;分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等&gt;</p>
+</div>
+<div class="tabbed-block">
+<p>&lt;分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等&gt;</p>
+</div>
+</div>
+</div>
+<h2 id="_5">课程笔记</h2>
+<ul>
+<li><strong>23级 Anakin</strong> </li>
+</ul>
+<div class="card file-block">
+<div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
+<div class="file-body">
+<div class="file-title">微机原理与应用</div>
+<div class="file-meta"></div>
+</div>
+<p><a class="down-button" target="_blank" href="http://file.eestudy-place.com/files/files/专业必修课/微机原理与应用/分享.7z" markdown="1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32v242.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64v-32c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg></span> 下载</a></p>
+</div>
+<h2 id="_6">课程经验分享</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">沈怿玮 22级电气工程及其自动化</label><label for="__tabbed_3_2">土豆 22级电气工程及其自动化</label><label for="__tabbed_3_3">楼涛 22级电子信息工程</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>受电气学生会学术部邀请，我在这里向大家分享课程《微机原理与应用》的一些学习经验，希望学弟学妹们能够对这门课有一个初步的了解，掌握这门课的学习方法。</p>
+<p>首先这门课是电气同学大三上的一门4学分的专业主干课程，它在学分绩点上的比重是非常大的。此课程分为理论和实验两个环节，我上的是徐习东老师的班级，徐老师在一整个课程周期中都非常强调实验的重要性，微机的实验也就是在CCS这个软件上编写代码，应用到单片机TMS320F2812上，实现种种外设的功能。代码的语言是基础的C语言，相信对于学习过C语言的你们来说是没有问题的，课程的重点就在于掌握单片机的原理以及使用方法，能够通过说明书等途径编写全新的单片机的代码。</p>
+<p>值得注意的是，这门课有一部分关于单片机硬件的知识是需要记住的，比如CPU时钟结构、输入输出口具体结构等，这些知识的记忆会有助于了解整个单片机的运行机理。如果遇到新的单片机从硬件结构及其原理入手也会有助于代码的编写。这部分内容老师在理论课堂上也会着重介绍，在考试当中也会作为填空简答题来考大家，因此想要拿高分的同学这部分知识一定要记住。其次便是尤为重要的编程过程，几乎每周一次的实验课，需要大家在课后花比较多的时间进行代码编写，作为初学者来说难度是很大的，我个人在学习过程中也是花了很多的时间在每一周的实验课程上。老师在课堂上会讲一些代码块儿，但是要把这些代码块儿组装成一个可以运行烧录没有bug的程序还需要很长的过程，主要是要理解代码的逻辑以及曾今在学习C语言当中未接触过的中断的概念。</p>
+<p>下面来着重谈一谈这门课的考试，这门课的成绩主要是由实验考试和理论考试组成，这两者的比重占到80%。其中实验考试的内容就是平时实验课布置下来大家需要掌握的代码，考试的时候老师会出一道题，然后现场编程现场验收，只要平时能够花时间在编程上，这个20分的实验考试是没有任何问题的。剩下60%的理论考试主要题型是填空、简答、汇编、编程。其中填空和简答题就是上述所讲的需要死记硬背的内容，有关硬件部分的知识，这部分可以在考试周的时候来记，考试就完全没有问题了。汇编语言考的是很基础的部分，老师在最后几节课才会开始介绍讲解汇编语言，上课也会告诉大家会考哪些语句，当然题目是全新的，但是就几句汇编，理解用法，理解意义就可以。最后就是编程大题，考的主要就是在实验课程中可能不太关注的那部分代码，CPU初始化、时钟的初始化等等。这些代码在单片机的正常运行中非常重要，务必要一条一条理解记忆。</p>
+<p>以上就是我关于微机这门课的经验分享，希望读者在看完之后能够对这门课有个初步的了解，明确学习的方向。</p>
+</div>
+<div class="tabbed-block">
+<p><strong>一、    平时实验</strong></p>
+<p>爱班的微机理论课前半部分主要学的是51单片机和汇编指令，后半部分简单学了STM32的资源配置，但是关于具体编程的部分更多还是在实验课上通过具体的代码和硬件呈现来学习的。</p>
+<p>爱班的微机理论课和实验课是同步进行的，理论课跟不上实验课的进度，刚开始上实验课的时候对于汇编指令完全不熟悉，要看懂老师给的现成的代码都很吃力，要自己编程更是毫无头绪。但是好在实验课上基本都是老师给出现成的代码，我们只需要将代码手敲一遍运行一下就大功告成，少部分时候需要我们自己编程来完善代码。所以最重要的其实是两个部分——理解和模仿，通常老师会先讲解整个代码的逻辑和对应的硬件原理，这个时候最好认真听，听懂整个代码逻辑，之后在抄代码的过程中再理一遍，这样思路就会清晰得多了，潜移默化地就能学会一些基本的编程方法。</p>
+<p>总的来说，平时的实验课还是很轻松的，老师非常反内卷，所以平时的实验报告要求也很简单，重要的是在这个过程中熟悉实验平台上包括数码显示、按键等各个硬件电路部分的原理，以及怎么用单片机编程的方式去控制每一个硬件电路部分。</p>
+<p><strong>二、    期中大作业</strong></p>
+<p>我们这一届期中的大作业是51单片机编程实现定时器的功能。期中大作业要求将先前分散开的每个硬件部分的控制整合起来，去实现一个更复杂的功能，所以先前每个简单的小实验都是在为期中大作业打基础。不过也是在做大作业的过程中，会更熟练汇编语言的指令并掌握一些整体的编程技巧。</p>
+<p>首先，微机控制不是单纯的编程，更重要的是实际的硬件控制效果。编程的时候，我们可能会觉得代码能实现设定的功能，但是在真正的硬件控制上的表现却不尽人意，这是很正常的，因为我们编程的时候总是将硬件电路理想化的，比如给引脚赋值为“1”，我们不会怀疑它输出的高电平，但实际上它的驱动能力可能不足以带动点亮某个LED灯。所以基本完成代码的编写之后，其实还要做好心理准备，在硬件测试的过程中可能遇到各种各样的问题，并足够耐心地去辨别出问题究竟源于软件还是硬件。</p>
+<p>另外，编写简单程序的时候可能无所谓，但是一旦要编写一个几百行的程序的时候，一定要采用模块化思维。将目标功能尽可能多地拆解成多个子模块的组合，体现在代码上就是尽量将主程序精简为调用子程序的语句，将主要的功能拆分放在子程序中来实现。这样做的好处是将各个功能分块，使得整体结构更加清晰，并且调试过程中，某个功能出现问题也便于更快定位问题并针对性地解决问题。当后期需要增加额外功能的时候，也不需要对原有程序做太大改动，只需要将新功能写成子程序进行调用即可，会大大提高调试和修改的效率。</p>
+<p>最后一个小提示是注意汇编指令的规范使用，比如进行位操作的时候需要使用 CLR 来清零，SETB 来置 1 才能正确实现功能，如果使用MOV 指令来赋值的话程序编译的时候不会报错，但是实际上却不能正确实现位操作的功能。虽然是个很简单的小问题，但是由于编译不报错，所以这样的错误其实非常具有隐蔽性。当程序功能异常，但代码逻辑又没有明显错误的时候，要关注一下是否犯了这类小错误。</p>
+<p><strong>三、    期末大作业</strong></p>
+<p>期末大作业要用STM32编程来实现旋转钟的功能。期末的大作业难度其实比期中高得多，因为这一次面对的是一块完全不知道原理的板子，而且STM32的编程方法也几乎是要自己从零开始摸索的。</p>
+<p>刚开始编程是毫无头绪的，切入点其实是硬件原理图，从理解硬件原理开始，到利用特定硬件部分实现简单的功能，最后才是将各种简单功能组合起来实现目标功能。比如说旋转钟，我可以先不管怎么在旋转的时候实现表盘的稳定显示，而是要先学会怎么去控制任何一个LED灯的亮暗。单片机芯片的GPIO口数量有限，而实验中用于显示的LED数量较多，只有一部分LED是直接用单片机的GPIO口控制的，那么其他的LED该怎么控制呢？从硬件原理图中就可以找到答案！从硬件原理图中会发现其余的LED灯是和74HC595 移位寄存器的并行输出端口相连的，那么接下来的问题就是搞明白74HC595 移位寄存器能实现什么功能？又该怎么控制？这些问题的答案可以从相应的芯片手册中获取，基本上也可以在CSDN中找到相应的文章。这样一步步从某个具体功能的末端往前推，就能找到使用核心的STM32芯片进行控制的方法。</p>
+<p>基本编程完成之后，要结合硬件测试的效果来不断查找和纠正代码逻辑的问题。记得最困难的还是在代码逻辑和语法没有明显错误的前提下，硬件测试的效果就是不稳定，其中有一个红外过零检测转速的功能总是时好时坏，红外遥控的响应也是不太灵敏，这个时候很自然怀疑是硬件出了问题。但因为板子是自己焊的，就顺理成章地将问题归结于虚焊，一度我都想去重新焊一块板子。最后我偶然才发现问题的解决办法其实非常简单，将能发射红外光的发光二极管和接受红外光的光敏二极管对准就能实现稳定的转速检测，同理，将接受红外遥控信号的光电二极管对准红外遥控的方向就能实现灵敏的遥控响应了。我差点就大动干戈去焊板子，很有可能我重新焊好的板子依然不能实现理想的效果，因为问题的根源根本不在虚焊，而是在光沿直线传播这样一个中学生都懂的道理。所以调试实际上还是一个很难的过程，需要有丰富的经验才能快速定位问题并从源头解决问题，当软件问题能被排除时，可以尝试从硬件基本的原理入手去寻找问题。</p>
+<p>最后简单说一下实验报告的撰写，实验报告需要包含最基本的两个部分——实验原理和程序设计说明。实验原理部分可以结合原理图进行图文并茂的说明，对硬件原理的理解是编程的基础，所以这一部分是非常重要的，也能体现出编程的部分是不是自己独立完成的。程序设计说明部分，可以通过绘制一些程序框图进行辅助说明，这样有助于清晰地呈现自己的编程逻辑。</p>
+<p>总的来说，微机实验这门课还是非常考验自学的能力和查找资料的能力，老师教的部分和最后要独立完成的大作业之间还是存在比较大的难度跨越的，不过只要找对切入点，你会感受到从毫无头绪开始一点点解决一个复杂问题的成就感。并且这门课是少有的能让你有实际的工程应用体会的课程，你将能把理论的知识实际转化成可视化的成果，并收获到宝贵的动手实践经验。相信大家都能在这门课中有自己的收获！</p>
+</div>
+<div class="tabbed-block">
+<p>爱班的微机实验主要学习51单片机和STM32。</p>
+<h2 id="51">一、51单片机</h2>
+<p>51单片机已经是一种非常古老的单片机了，但它仍适合作为学习单片机的基础，让我们认识单片机“最底层”的代码逻辑，了解单片机硬件部分与软件部分之间的联动。</p>
+<h3 id="11">1.1 汇编语言</h3>
+<p>51单片机通过汇编语言编写。不同于C语言和python，汇编语言没有大量的库函数，而是通过汇编指令来实现各种功能。在第一次接触汇编语言时，我们对它的指令一定是非常陌生的。老师通常会提供指令合集，或者自行在CSDN上搜索“51单片机——汇编指令合集”。一开始编写代码时，可以通过这份指令合集来找到需要使用的指令，直到慢慢地熟悉。</p>
+<p>汇编语言的一大特点是对寄存器的操作。其他语言都可以随意地定义与操控变量，但51单片机的变量是保存在其有限的寄存器中的，只能通过特定的指令来操作，就好像变量有了其实体一般。</p>
+<p>前几次的实验通常是比较简单的，但由于我们对汇编语言的不熟悉，因此顺溜地写完整个程序通常是非常困难的。如果对C语言或python比较熟悉，可以先尝试使用这些语言来编写代码，厘清整个代码思路，再“翻译”成汇编语言执行。此外，要熟悉51单片机指令的内在实现逻辑以及指令的限制条件，从而减少在代码层面发生的错误。</p>
+<p>汇编语言中的一些指令可以与我们熟悉的编程语言相对应，比如通过MOV指令来进行变量赋值，通过JB/CJNE等指令达成IF语句的效果，通过DJNZ等指令实现FOR循环语句的效果。此外还需活用指令的标号，可以实现函数定义、IF选择跳转等功能。</p>
+<h3 id="12-51">1.2 51单片机外设</h3>
+<p>51单片机学习的另一个重点便是硬件外设的学习，如LED灯、按键、蜂鸣器、数码管、点阵显示屏等。这部分内容要根据例程来看，搞清楚例程中每一句代码的作用，将软件与硬件结合起来。可以对每一种外设的使用方法进行整理，方便最后大作业时使用。</p>
+<h3 id="13-51">1.3 51单片机大作业（期中）</h3>
+<p>我们这一届的期中大作业是做一个定时器，包括一些要求的功能。这个作业难度不是很大，因为许多功能都是之前已经实现过的。但由于要把所有功能都放到一个程序中，因此率先设计好整个程序的框架图很重要，后面实验报告可能也需要给出程序的框架图（老师可能不会一点点地看代码，但会看框架图）。此外，定时器分为许多工作模式，这需要通过状态机的方式来实现。</p>
+<h2 id="stm32">二、STM32</h2>
+<p>STM32是一种非常常用的单片机，通过C语言来编写程序，通常使用CubeMX+Keil来进行工程配置。与51单片机不同，STM32的代码编写通常会使用到许多的库函数，网上也能查到很多的资料。老师在课上可能没有时间来一句句地讲解代码，所以我们需要自己上网查找对应的资料，建议为每一句代码都加上注释，搞清楚每一句代码的含义与作用。</p>
+<h3 id="21-stm32">2.1 STM32大作业（期末）</h3>
+<p>我们这一届的期末大作业是制作一个旋转灯。这个期末大作业难度较高，因为老师一般不会提供太多的资料，只会把大致的原理讲一下，而这时候其实大家对STM32的了解还不够深入，所以在刚开始做的时候会遇到很多困难。从0到1制作一个旋转灯可能看起来非常困难，但可以将整个项目拆解成一个个小任务，从基础功能出发一步步完善功能，最后可以发现每一步之间的跨度都是可以接受的。</p>
+<p>旋转灯的电路板需要我们自己对照原理图焊接。这一步需要非常小心，因为焊接不好可能会导致后续的功能实现出现问题（尤其是红外过零检测用的小灯），最后写代码的时候如果发现硬件有问题，就得再重新焊接。</p>
+<p>旋转灯有一个功能是通过红外遥控器控制显示变化。可以在网上（如CSDN上）查到相关的代码，调整一下就可以用在我们的STM32程序中。但在实际使用的时候可能会发现红外控制不够灵敏，这需要对代码进行一定优化。</p>
+<h2 id="_7">三、其他</h2>
+<p>其实无论是51单片机还是STM32，它们的重点都包括定时器、中断以及调试。其中定时器的内容同时是理论课考试的重点。STM32的定时器频率可以在CubeMX中设置，需要理解其定时器的工作原理以及使用方法。中断的作用是让程序在某些事件发生时，自动执行一些代码。如定时器每个周期都可以产生中断，执行需要的代码。而在最后的大作业旋转灯中，红外过零检测、红外遥控等重要功能都是通过中断实现的。主程序中通常只有初始化的代码，而绝大部分的功能都是在中断中实现的。</p>
+<p>而调试则是在这门实验课中非常重要的一项技能。当你的程序未达到想要的结果时，迅速地找到问题所在是十分关键的。比如当你需要确定程序有没有进入某个循环时，可以在循环中打一个断点，再运行程序，你就能看到程序是否会运行到断点位置。熟练地掌握调试技巧可以大幅提高我们完成实验的效率。</p>
+<h2 id="_8">总结</h2>
+<p>微机原理与应用综合实验是一门具有挑战性的爱班课程，51和STM32的知识点有许多，老师很难详细地讲解到每一个地方，因此我们常常需要自行去查找资料。这其实有一点项目式学习的感觉，通过一个个小项目以及综合性的大项目锻炼我们查找资料并学习的能力，这与后续参与科研项目很像，导师们不会手把手地带领我们，很多时候需要我们自己去探索。在这门课程中，我们可以不依赖"祖传代码"，而是一步步地学习，一步步地撰写属于自己的代码，相信大家都能够在这门课程中收获颇丰。</p>
+</div>
+</div>
+</div>
+<h2 id="cc98">CC98汇总</h2>
+<ul>
+<li>爱迪生班：<a href="https://www.cc98.org/topic/6221926">24-25春夏微机原理与应用（爱班）期末考回忆卷（tag：微机、爱班、期末）</a></li>
+<li><a href="https://www.cc98.org/topic/6092371/">2013-2024微机原理与应用（电气学院）历年回忆卷汇总+实验指导书</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8.html" class="md-footer__link md-footer__link--prev" aria-label="上一页: 微处理器原理及应用">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                微处理器原理及应用
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF.html" class="md-footer__link md-footer__link--next" aria-label="下一页: 微机原理与接口技术">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                微机原理与接口技术
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; EESUAD
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ZJU-EESUAD" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["header.autohide", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.tracking", "content.code.annotate", "toc.follow", "navigation.path", "navigation.top", "navigation.tabs", "navigation.footer", "content.code.copy", "content.code.select", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../../../assets/javascripts/katex.js"></script>
+      
+    
+  </body>
+</html>
