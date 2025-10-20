@@ -1,3 +1,70 @@
+# DSP原理与应用
+
+
+## 课程学习内容
+
+<课程学习内容>
+
+
+## 任课教师
+
+=== "<教师 1>"
+
+    <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
+
+=== "<教师 2>"
+
+    <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
+
+
+## 分数构成
+
+=== "<教师 1>"
+
+    <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
+
+=== "<教师 2>"
+
+    <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
+
+
+
+## 课程笔记
+
+<添加课程笔记PDF文件，格式如下：>
+```markdown
+* **年级 姓名/昵称** 
+
+<iframe src="PDF文件链接" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+```
+
+<添加课程笔记zip文件，格式如下：>
+```html
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
+<div class="file-body">
+<div class="file-title">课程笔记</div>
+<div class="file-meta"></div>
+</div>
+<a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
+```
+<添加课程笔记xmind文件，格式如下：>
+```html
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
+<div class="file-body">
+<div class="file-title">课程笔记</div>
+<div class="file-meta"></div>
+</div>
+<a class="down-button" target="_blank" href="xmind文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
+```
+
+## 课程经验分享
+
 === "刘凯"
 	
 	**课程内容简介**
@@ -46,3 +113,7 @@
 	
 	这门课程考核主要分为期末开卷考试、三次实验报告以及考勤。考勤只有两三次，随机点名十位左右同学。三次实验在后半学期，两次实验是挑选已有实验，第三次是自主设计实验。期末开卷考试占成绩主要部分，绝大多数都是PPT上的内容，只要熟悉PPT然后掌握基本语法即可。
 
+
+## CC98汇总（可选）
+<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+* `[相关CC98帖子标题](CC98链接地址)`

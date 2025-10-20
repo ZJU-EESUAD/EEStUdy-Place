@@ -1,6 +1,69 @@
-## 22级
+# 微积分(甲)II
 
-=== "Puff 电子信息工程"
+
+## 课程学习内容
+
+<课程学习内容>
+
+
+## 任课教师
+
+=== "<教师 1>"
+
+    <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
+
+=== "<教师 2>"
+
+    <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
+
+
+## 分数构成
+
+=== "<教师 1>"
+
+    <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
+
+=== "<教师 2>"
+
+    <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
+
+
+
+## 课程笔记
+
+<添加课程笔记PDF文件，格式如下：>
+```markdown
+* **年级 姓名/昵称** 
+
+<iframe src="PDF文件链接" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs
+</iframe>
+```
+
+<添加课程笔记zip文件，格式如下：>
+```html
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
+<div class="file-body">
+<div class="file-title">课程笔记</div>
+<div class="file-meta"></div>
+</div>
+<a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
+```
+<添加课程笔记xmind文件，格式如下：>
+```html
+<div class="card file-block" markdown="1">
+<div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
+<div class="file-body">
+<div class="file-title">课程笔记</div>
+<div class="file-meta"></div>
+</div>
+<a class="down-button" target="_blank" href="xmind文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
+</div>
+```
+
+## 课程经验分享
 
     **一、从迷茫走向坚定**
     
@@ -80,4 +143,9 @@
     
     **七、最后的小建议**
     
-    最后我想给同学们说，学习并不是唯一的。我刚刚所说的这些学习经验，是为了让同学们更快地融入大学生活，更有效率地去学习。固然，学习是最基本最重要的东西，但除了学习以外，还是有很多其他的方面待同学们去发掘、去体验。毕竟，我们浙江大学，对我们的培养目标就是“德智体美劳全面发展、具有全球竞争力的高素质创新人才和领导者”嘛。所以，在有优异的成绩之外，同学们还得多去拓展自己的边界，力争做一个堪当民族复兴大任的杰出人才。
+    最后我想给同学们说，学习并不是唯一的。我刚刚所说的这些学习经验，是为了让同学们更快地融入大学生活，更有效率地去学习。固然，学习是最基本最重要的东西，但除了学习以外，还是有很多其他的方面待同学们去发掘、去体验。毕竟，我们浙江大学，对我们的培养目标就是"德智体美劳全面发展、具有全球竞争力的高素质创新人才和领导者"嘛。所以，在有优异的成绩之外，同学们还得多去拓展自己的边界，力争做一个堪当民族复兴大任的杰出人才。
+
+
+## CC98汇总（可选）
+<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+* `[相关CC98帖子标题](CC98链接地址)`
