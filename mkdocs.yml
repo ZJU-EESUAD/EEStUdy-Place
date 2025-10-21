@@ -9,7 +9,7 @@ nav:
   - About:
     - 关于网站: About/关于网站.md
     - 关于我们: About/关于我们.md
-    - 贡献指南: About/Contributing.md
+    - 贡献指南: CONTRIBUTING.md
     - 课程模板: About/Template.md
     - 我要反馈: About/Issue.md
     - 致谢: About/Authors.md
