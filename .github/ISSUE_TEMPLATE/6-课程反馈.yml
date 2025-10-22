@@ -1,0 +1,92 @@
+name: 6-课程反馈
+description: 对特定课程提供反馈和建议
+title: "[Course Feedback]: "
+labels: ["course-feedback", "content"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您为EEStudy Place提供课程反馈！您的意见对我们改进课程内容非常重要。
+        
+  - type: dropdown
+    id: course-category
+    attributes:
+      label: 课程类别
+      description: 请选择相关的课程类别
+      options:
+        - 专业基础课
+        - 专业必修课
+        - 专业选修课
+        - 实践课程
+        - 通识必修课
+    validations:
+      required: true
+      
+  - type: input
+    id: course-name
+    attributes:
+      label: 课程名称
+      description: 请填写具体的课程名称
+      placeholder: 例如：电路与电子技术I、II
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: 反馈类型
+      description: 请选择反馈类型
+      options:
+        - 内容质量
+        - 难度设置
+        - 资料完整性
+        - 实验指导
+        - 练习题
+        - 其他
+    validations:
+      required: true
+      
+  - type: textarea
+    id: feedback-content
+    attributes:
+      label: 详细反馈
+      description: 请详细描述您的反馈内容
+      placeholder: 请具体说明您对课程的看法和建议...
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: rating
+    attributes:
+      label: 整体评分
+      description: 请为课程内容质量评分
+      options:
+        - ⭐⭐⭐⭐⭐ 优秀
+        - ⭐⭐⭐⭐ 良好
+        - ⭐⭐⭐ 一般
+        - ⭐⭐ 较差
+        - ⭐ 很差
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: improvements
+    attributes:
+      label: 改进建议
+      description: 请选择您认为需要改进的方面
+      options:
+        - label: 增加更多实例和案例
+        - label: 提供更多练习题
+        - label: 改进实验指导
+        - label: 优化内容结构
+        - label: 增加视频资源
+        - label: 提供更多参考资料
+        - label: 其他建议
+          
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 其他信息
+      description: 请在此处添加任何其他信息
+      placeholder: 如果您有其他建议或想法，请在此处分享...
