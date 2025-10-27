@@ -515,6 +515,8 @@
       
         
       
+        
+      
     
     
       
@@ -631,224 +633,255 @@
         
 
 <nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
     
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
+    
+    
+        
+    
+
+    <!-- 新增：确定要使用的目录深度 -->
+    
+        
+    
+
+    
+        <label class="md-nav__title" for="__toc">
+            <span class="md-nav__icon md-icon"></span>
+            目录
+        </label>
+        <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+            <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       🚀 快速开始
     </span>
   </a>
   
+  
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       📝 贡献指南
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="📝 贡献指南">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       课程攻略与经验分享
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       学习资源
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       技术改进
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       文档格式
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       内容规范
     </span>
   </a>
   
+  
 </li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       🔄 贡献方式
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="🔄 贡献方式">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       方式一：邮件投稿
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#github-pull-request" class="md-nav__link">
     <span class="md-ellipsis">
       方式二：GitHub Pull Request
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="方式二：GitHub Pull Request">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-fork" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Fork 仓库
-    </span>
-  </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 克隆到本地
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 创建新分支
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 进行修改并提交
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-pull-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. 创建 Pull Request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. 等待审核
-    </span>
-  </a>
-  
-</li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       📋 提交规范
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="📋 提交规范">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#commit" class="md-nav__link">
     <span class="md-ellipsis">
       Commit 信息规范
     </span>
   </a>
   
+  
 </li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       📞 联系我们
     </span>
   </a>
   
+  
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       🙏 致谢
     </span>
   </a>
   
-</li>
-      
-    </ul>
   
+</li>
+
+                    
+                
+            </ul>
+     
 </nav>
       
     </li>
@@ -926,11 +959,32 @@
   
   
     <li class="md-nav__item">
-      <a href="About/%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.html" class="md-nav__link">
+      <a href="About/%E4%BB%8E0%E5%BC%80%E5%A7%8B.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    贡献指南-零基础版
+    “从0开始”
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="About/Document.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    网站构建说明书
   </span>
   
 
@@ -5379,224 +5433,255 @@
                     
 
 <nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
     
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
+    
+    
+        
+    
+
+    <!-- 新增：确定要使用的目录深度 -->
+    
+        
+    
+
+    
+        <label class="md-nav__title" for="__toc">
+            <span class="md-nav__icon md-icon"></span>
+            目录
+        </label>
+        <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+            <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       🚀 快速开始
     </span>
   </a>
   
+  
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       📝 贡献指南
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="📝 贡献指南">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       课程攻略与经验分享
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       学习资源
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       技术改进
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       文档格式
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       内容规范
     </span>
   </a>
   
+  
 </li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       🔄 贡献方式
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="🔄 贡献方式">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       方式一：邮件投稿
     </span>
   </a>
   
+  
 </li>
+
+          
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#github-pull-request" class="md-nav__link">
     <span class="md-ellipsis">
       方式二：GitHub Pull Request
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="方式二：GitHub Pull Request">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-fork" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Fork 仓库
-    </span>
-  </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 克隆到本地
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 创建新分支
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 进行修改并提交
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-pull-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. 创建 Pull Request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. 等待审核
-    </span>
-  </a>
-  
-</li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
       📋 提交规范
     </span>
   </a>
   
+  
     <nav class="md-nav" aria-label="📋 提交规范">
       <ul class="md-nav__list">
         
-          <li class="md-nav__item">
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          
+            
+<li class="md-nav__item">
   <a href="#commit" class="md-nav__link">
     <span class="md-ellipsis">
       Commit 信息规范
     </span>
   </a>
   
+  
 </li>
+
+          
         
       </ul>
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       📞 联系我们
     </span>
   </a>
   
+  
 </li>
-      
-        <li class="md-nav__item">
+
+                    
+                
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    
+                        
+<li class="md-nav__item">
   <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       🙏 致谢
     </span>
   </a>
   
-</li>
-      
-    </ul>
   
+</li>
+
+                    
+                
+            </ul>
+     
 </nav>
                   </div>
                 </div>
@@ -5620,6 +5705,15 @@
 </div>
 <p>EEStUdy-Place 是一个由浙江大学电气工程学院学生会学术部创建的学习资源共享平台。我们欢迎所有同学参与贡献，共同建设这个学习社区！</p>
 <h2 id="_2">🚀 快速开始</h2>
+<ul>
+<li>如果你是第一次参与贡献，我们建议你查看<a href="About/%E4%BB%8E0%E5%BC%80%E5%A7%8B.html">“从0开始”贡献指南</a>，帮助你理解网站是如何从0开始架构的，并帮助你快速上手。</li>
+</ul>
+<ul>
+<li>这篇文章大致说明了如何在本地运行网站，如何按照规范修改并上传你的贡献内容。</li>
+</ul>
+<ul>
+<li>如果你想要探索更多细节，可以阅读本网站<a href="About/Document.html">文档</a>。</li>
+</ul>
 <div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
@@ -5680,7 +5774,7 @@
 </ul>
 <div class="admonition tip">
 <p class="admonition-title">格式建议</p>
-<p>请参考我们的<a href="Template.md">课程模板</a>来了解标准格式，但<strong>不要被格式约束</strong>，畅所欲言~</p>
+<p>请参考我们的<a href="About/Template.html">课程模板</a>来了解标准格式，但<strong>不要被格式约束</strong>，畅所欲言~</p>
 </div>
 <h2 id="_9">🔄 贡献方式</h2>
 <h3 id="_10">方式一：邮件投稿</h3>
@@ -5701,9 +5795,7 @@
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nb">cd</span><span class="w"> </span>EEStUdy-Place
 </span></code></pre></div></td></tr></table></div>
 <h4 id="3">3. 创建新分支</h4>
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/课程名称-你的贡献类型
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="c1"># 例如：feature/微积分-学习心得</span>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feature/课程名称-你的贡献类型
 </span></code></pre></div></td></tr></table></div>
 <h4 id="4">4. 进行修改并提交</h4>
 <div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
