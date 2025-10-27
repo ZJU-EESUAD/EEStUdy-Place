@@ -1,0 +1,36 @@
+{% set title = lang.t("toc") %}
+{% if config.mdx_configs.toc and config.mdx_configs.toc.title %}
+    {% set title = config.mdx_configs.toc.title %}
+{% endif %}
+<nav class="md-nav md-nav--secondary" aria-label="{{ title | e }}">
+    {% set toc = page.toc %}
+    {% set first = toc | first %}
+    {% if first and first.level == 1 %}
+        {% set toc = first.children %}
+    {% endif %}
+
+    <!-- 新增：确定要使用的目录深度 -->
+    {% if page.meta and page.meta.toc_depth %}
+        {% set current_toc_depth = page.meta.toc_depth %}
+    {% elif config.theme.navigation_depth is defined %}
+        {% set current_toc_depth = config.theme.navigation_depth %}
+    {% else %}
+        {% set current_toc_depth = 2 %} <!-- 默认深度 -->
+    {% endif %}
+
+    {% if toc %}
+        <label class="md-nav__title" for="__toc">
+            <span class="md-nav__icon md-icon"></span>
+            {{ title }}
+        </label>
+        <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+            <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+                {% for toc_item in toc %}
+                    <!-- 传递 current_toc_depth 参数给 toc-item.html -->
+                    {% with toc_depth = current_toc_depth %}
+                        {% include "partials/toc-item.html" %}
+                    {% endwith %}
+                {% endfor %}
+            </ul>
+     {% endif %}
+</nav>

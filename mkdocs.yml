@@ -13,7 +13,8 @@ nav:
     - 课程模板: About/Template.md
     - 我要反馈: About/Issue.md
     - 致谢: About/Authors.md
-    - 贡献指南-零基础版: About/帮助文档.md
+    - “从0开始”: About/从0开始.md
+    - 网站构建说明书: About/Document.md
   - All In One:
     - All_In_One/index.md
     - 培养方案: All_In_One/培养方案.md
@@ -198,8 +199,8 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
-  custom_dir: material/overrides
   features:
     - header.autohide
     - navigation.instant
@@ -281,6 +282,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - mdx_truly_sane_lists # 支持多级列表
+  
 
 extra:
   social:

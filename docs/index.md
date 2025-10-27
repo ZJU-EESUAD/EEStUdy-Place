@@ -1,3 +1,5 @@
 ---
-template: home.html 
+template: home.html
 ---
+
+homepage content

@@ -1,0 +1,22 @@
+{% if toc_item.level <= toc_depth %}
+<li class="md-nav__item">
+  <a href="{{ toc_item.url }}" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{ toc_item.title }}
+    </span>
+  </a>
+  
+  {% if toc_item.children and toc_item.level < toc_depth %}
+    <nav class="md-nav" aria-label="{{ toc_item.title | striptags | e }}">
+      <ul class="md-nav__list">
+        {% for toc_item in toc_item.children %}
+          <!-- 递归调用时继续传递相同的 toc_depth 参数 -->
+          {% with toc_depth = toc_depth %}
+            {% include "partials/toc-item.html" %}
+          {% endwith %}
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</li>
+{% endif %}
