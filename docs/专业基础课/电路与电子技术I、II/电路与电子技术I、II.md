@@ -1,4 +1,4 @@
-# 电路与电子技术I、II
+# 电路与电子技术 I、II
 
 
 ## 课程学习内容
@@ -34,7 +34,7 @@
 
 #### 电路原理
 
-* **21级 金怡婷** 
+* **21 级 金怡婷** 
 
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/电路原理/第四章.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
@@ -49,21 +49,21 @@ This browser does not support PDFs
 
 #### 数电
 
-* **21级 金怡婷** 
+* **21 级 金怡婷** 
 
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/数电.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
 </iframe>
 
 
-* **22级 会飞的鱼** 
+* **22 级 会飞的鱼** 
 
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/电路与电子技术2.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
 </iframe>
 
 
-* **23级 鲸鱼** 
+* **23 级 鲸鱼** 
 
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/数电/电路与电子技术1.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
@@ -71,7 +71,7 @@ This browser does not support PDFs
 
 #### 模电
 
-* **21级 金怡婷**
+* **21 级 金怡婷**
 半导体部分笔记
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/模电/半导体部分笔记.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
@@ -82,7 +82,7 @@ This browser does not support PDFs
 This browser does not support PDFs
 </iframe>
 
-* **23级 鲸鱼**
+* **23 级 鲸鱼**
 模电课程笔记
 <iframe src="http://file.eestudy-place.com/files/files/专业基础课/电路与电子技术I、II/模电/电路与电子技术2.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs
@@ -157,7 +157,7 @@ This browser does not support PDFs
 	
 	大学中，我们或功利或理想、或急切或肆意去追求或清晰或不定的目标，但，愿你忠于自己所热爱的事，愿你找到自己存在的方式，愿你快乐且自由，高尚且坚定。
 
-=== "会飞的鱼 22级电气工程及其自动化"
+=== "会飞的鱼 22 级电气工程及其自动化"
 
 	**电路与电子技术1（爱班）**
 	
@@ -173,7 +173,7 @@ This browser does not support PDFs
 
 ### 往届课程感想
 
-=== "陆琦 电气工程及其自动化1804"
+=== "陆琦 电气工程及其自动化 1804"
 
     我大二时上的爱班的电路与电子技术，大二秋是姚缨英老师上的电路原理部分，大二冬是林平老师上的模电部分，大二春夏是林平老师上的数电部分。对这课的整体感受是：大二秋冬的电路与电子技术上课的节奏比较紧凑，相信不少爱班同学都还记得被一周两次模电课支配的恐惧；大二春夏数电部分的上课节奏就比较舒服，一周只用上一次课。 
     
@@ -185,7 +185,7 @@ This browser does not support PDFs
     
     提示：咱们学院开设的数模电课和信电那边的还是有所不同的，信电那边会讲一些器件的底层原理，所以大家如果打算跨修信电的大三课程，建议先学他们的数模电的教材或ppt，不然上课听起来会比较吃力。 最后，祝大家在电路与电子技术这门课上都能取得满意的成绩！
 
-=== "周泽 电气工程及其自动化1801"
+=== "周泽 电气工程及其自动化 1801"
 
     1.勤画图，比较形象，可以加深记忆和理解，比如模电的各种器件的等效模型。
     
@@ -201,12 +201,12 @@ This browser does not support PDFs
     
     7.复习做整理时不要照抄课本，按自己的理解编写自己能看懂的教材即可。
 
-=== "王晨旭 自动化1801"
+=== "王晨旭 自动化 1801"
 
     电路部分基础要打好，基本的计算方法需要熟练掌握，包括回路电流、节点电压定律都要牢固掌握。同时电网络分析中有大量涉及控制理论（laplace）、线性代数（双口网络、网络矩阵方程）、偏微分（分布参数电路）等，需要特别注意知识的融合。这门课也是你们电气工程后面进行电力系统分析的最基础内容，一定要重视。实验的话我就不多说了，multisim、pspice都要比较熟练掌握。
 
 
-## CC98汇总（可选）
-<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+## CC98 汇总（可选）
+<可选：如果有相关的 CC98 论坛讨论帖，可以在这里添加链接>
 * `[相关CC98帖子标题](CC98链接地址)`
 

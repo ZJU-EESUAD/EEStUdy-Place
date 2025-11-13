@@ -1,4 +1,4 @@
-# 现代电机CAD技术
+# 现代电机 CAD 技术
 ## 课程学习内容
 
 <课程学习内容>
@@ -29,7 +29,7 @@
 
 ## 课程笔记
 
-<添加课程笔记PDF文件，格式如下：>
+<添加课程笔记 PDF 文件，格式如下：>
 ```markdown
 * **年级 姓名/昵称** 
 
@@ -38,7 +38,7 @@ This browser does not support PDFs
 </iframe>
 ```
 
-<添加课程笔记zip文件，格式如下：>
+<添加课程笔记 zip 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
@@ -49,7 +49,7 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
-<添加课程笔记xmind文件，格式如下：>
+<添加课程笔记 xmind 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
@@ -63,7 +63,7 @@ This browser does not support PDFs
 
 ## 课程经验分享
 
-=== "张睿 21级电气工程及其自动化"
+=== "张睿 21 级电气工程及其自动化"
 
 	现代电机CAD技术经验分享
 
@@ -130,6 +130,6 @@ This browser does not support PDFs
 	"电机CAD高分秘诀笔记"，在98应该能找到，内容并不是非常齐全，但可以作为索引提升复习效率，电机CAD设计的书本很厚，大部分内容不考或已经在大作业中考核过了，所以直接翻书复习效率很低。
 
 
-## CC98汇总（可选）
-<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+## CC98 汇总（可选）
+<可选：如果有相关的 CC98 论坛讨论帖，可以在这里添加链接>
 * `[相关CC98帖子标题](CC98链接地址)`

@@ -26,7 +26,7 @@
 
 ## 课程笔记
 
-<添加课程笔记PDF文件，格式如下：>
+<添加课程笔记 PDF 文件，格式如下：>
 ```markdown
 * **年级 姓名/昵称** 
 
@@ -35,7 +35,7 @@ This browser does not support PDFs
 </iframe>
 ```
 
-<添加课程笔记zip文件，格式如下：>
+<添加课程笔记 zip 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
@@ -46,7 +46,7 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
-<添加课程笔记xmind文件，格式如下：>
+<添加课程笔记 xmind 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
@@ -88,7 +88,7 @@ This browser does not support PDFs
 ```
 
 
-## CC98链接
+## CC98 链接
 
-* [2025夏学期 电力电子技术II/电力电子技术2 电子信息工程 回忆卷 - CC98论坛](https://www.cc98.org/topic/6219517)
-* [2024-2025 春夏学期 电力电子技术II/电力电子技术2 电子信息工程 经验贴 - CC98论坛](https://www.cc98.org/topic/6232909)
+* [2025 夏学期 电力电子技术 II/电力电子技术 2 电子信息工程 回忆卷 - CC98 论坛](https://www.cc98.org/topic/6219517)
+* [2024-2025 春夏学期 电力电子技术 II/电力电子技术 2 电子信息工程 经验贴 - CC98 论坛](https://www.cc98.org/topic/6232909)

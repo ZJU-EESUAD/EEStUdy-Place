@@ -1,4 +1,4 @@
-# DSP原理与应用
+# DSP 原理与应用
 
 
 ## 课程学习内容
@@ -31,7 +31,7 @@
 
 ## 课程笔记
 
-<添加课程笔记PDF文件，格式如下：>
+<添加课程笔记 PDF 文件，格式如下：>
 ```markdown
 * **年级 姓名/昵称** 
 
@@ -40,7 +40,7 @@ This browser does not support PDFs
 </iframe>
 ```
 
-<添加课程笔记zip文件，格式如下：>
+<添加课程笔记 zip 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
@@ -51,7 +51,7 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
-<添加课程笔记xmind文件，格式如下：>
+<添加课程笔记 xmind 文件，格式如下：>
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
@@ -114,6 +114,6 @@ This browser does not support PDFs
 	这门课程考核主要分为期末开卷考试、三次实验报告以及考勤。考勤只有两三次，随机点名十位左右同学。三次实验在后半学期，两次实验是挑选已有实验，第三次是自主设计实验。期末开卷考试占成绩主要部分，绝大多数都是PPT上的内容，只要熟悉PPT然后掌握基本语法即可。
 
 
-## CC98汇总（可选）
-<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+## CC98 汇总（可选）
+<可选：如果有相关的 CC98 论坛讨论帖，可以在这里添加链接>
 * `[相关CC98帖子标题](CC98链接地址)`
