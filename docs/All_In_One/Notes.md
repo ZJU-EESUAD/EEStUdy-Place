@@ -74,7 +74,6 @@
     </div>
 </a>
 
-
 <a href="https://vigilux.top/notebook" title="vigilux418's Notebook" target="_blank">
     <div class="flink-list-item">
         <div class="flink-item-icon">
@@ -105,4 +104,3 @@
     </div>
 </a>
 </div>
-

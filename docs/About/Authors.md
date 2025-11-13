@@ -4,7 +4,6 @@
 
 ## 2020 级
 
-
 ## 2021 级
 
 - **章皓然** (电气工程及其自动化) - [Paradox's Website](https://zju-paradox.top/)

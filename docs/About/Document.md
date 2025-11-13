@@ -9,6 +9,7 @@ toc_depth: 3
 本网站使用了 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 主题，可以通过配置文件夹`/overrides`中的文件对主题进行定制化修改。
 
 基本已经在`mkdocs.yml`中设置：
+
 ```yaml
 theme:
   name: material
@@ -16,7 +17,6 @@ theme:
 ```
 
 具体参见 [Material for MkDocs - Customization](https://squidfunk.github.io/mkdocs-material/customization/)。
-
 
 ## Features
 
@@ -29,8 +29,8 @@ theme:
 comments: true
 ---
 ```
-表示该文档启用评论功能。
 
+表示该文档启用评论功能。
 
 ### TOC
 
@@ -55,6 +55,7 @@ toc: false
 toc_depth: 3
 ---
 ```
+
 表示该文档的侧边栏目录将显示到三级标题（###）。
 
 ### Admonitions
@@ -97,4 +98,5 @@ toc_depth: 3
     这是一个成功框，表示某个操作或步骤已成功完成。
 
 ```
+
 具体可见 [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admonitions)
