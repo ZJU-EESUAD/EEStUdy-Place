@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: AutoCorrect
-        uses: huacnlee/autocorrect-action@main
+      # - name: AutoCorrect
+      #   uses: huacnlee/autocorrect-action@main
       # - name: Report ReviewDog
       #   if: failure()
       #   uses: huacnlee/autocorrect-action@v2
