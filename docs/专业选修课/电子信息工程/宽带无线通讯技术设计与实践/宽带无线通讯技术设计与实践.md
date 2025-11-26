@@ -3,7 +3,6 @@
 
 <课程学习内容>
 
-
 ## 任课教师
 
 === "<教师 1>"
@@ -13,7 +12,6 @@
 === "<教师 2>"
 
     <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
-
 
 ## 分数构成
 
@@ -26,11 +24,10 @@
     <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
 -->
 
-
-
 ## 课程笔记
 
-<添加课程笔记PDF文件，格式如下：>
+<添加课程笔记 PDF 文件，格式如下：>
+
 ```markdown
 * **年级 姓名/昵称** 
 
@@ -39,7 +36,8 @@ This browser does not support PDFs
 </iframe>
 ```
 
-<添加课程笔记zip文件，格式如下：>
+<添加课程笔记 zip 文件，格式如下：>
+
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
@@ -50,7 +48,9 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
-<添加课程笔记xmind文件，格式如下：>
+
+<添加课程笔记 xmind 文件，格式如下：>
+
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
@@ -65,6 +65,7 @@ This browser does not support PDFs
 ## 课程经验分享
 
 <添加课程经验分享，格式如下：>
+
 ```markdown
 === "姓名 年级 专业"
 
@@ -91,7 +92,8 @@ This browser does not support PDFs
     <!-- 具体的学习建议和方法 -->
 ```
 
+## CC98 汇总（可选）
 
-## CC98汇总（可选）
-<可选：如果有相关的CC98论坛讨论帖，可以在这里添加链接>
+<可选：如果有相关的 CC98 论坛讨论帖，可以在这里添加链接>
+
 * `[相关CC98帖子标题](CC98链接地址)`

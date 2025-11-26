@@ -2,7 +2,6 @@
 
 <课程学习内容>
 
-
 ## 任课教师
 
 === "<教师 1>"
@@ -12,7 +11,6 @@
 === "<教师 2>"
 
     <授课方式（如是否双语、板书/PPT/其他）、授课水平、给分情况等>
-
 
 ## 分数构成
 
@@ -27,7 +25,8 @@
 
 ## 课程笔记
 
-<添加课程笔记PDF文件，格式如下：>
+<添加课程笔记 PDF 文件，格式如下：>
+
 ```markdown
 * **年级 姓名/昵称** 
 
@@ -36,7 +35,8 @@ This browser does not support PDFs
 </iframe>
 ```
 
-<添加课程笔记zip文件，格式如下：>
+<添加课程笔记 zip 文件，格式如下：>
+
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/zip.svg" style="height: 3em;"></div>
@@ -47,7 +47,9 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="zip文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
-<添加课程笔记xmind文件，格式如下：>
+
+<添加课程笔记 xmind 文件，格式如下：>
+
 ```html
 <div class="card file-block" markdown="1">
 <div class="file-icon"><img src="/assets/images/xmind.svg" style="height: 3em;"></div>
@@ -62,6 +64,7 @@ This browser does not support PDFs
 ## 课程经验分享
 
 <添加课程经验分享，格式如下：>
+
 ```markdown
 === "姓名 年级 专业"
 
@@ -88,8 +91,7 @@ This browser does not support PDFs
     <!-- 具体的学习建议和方法 -->
 ```
 
+## CC98 链接
 
-## CC98链接
-
-* [2025夏学期 电力电子技术II/电力电子技术2 电子信息工程 回忆卷 - CC98论坛](https://www.cc98.org/topic/6219517)
-* [2024-2025 春夏学期 电力电子技术II/电力电子技术2 电子信息工程 经验贴 - CC98论坛](https://www.cc98.org/topic/6232909)
+* [2025 夏学期 电力电子技术 II/电力电子技术 2 电子信息工程 回忆卷 - CC98 论坛](https://www.cc98.org/topic/6219517)
+* [2024-2025 春夏学期 电力电子技术 II/电力电子技术 2 电子信息工程 经验贴 - CC98 论坛](https://www.cc98.org/topic/6232909)
