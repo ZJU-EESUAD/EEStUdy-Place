@@ -156,7 +156,10 @@ git commit -m "fix"
 
 * **邮箱**：`eesuad_zju@163.com`
 * **GitHub Issues**：[提交问题](https://github.com/ZJU-EESUAD/EEStUdy-Place/issues)
-* **QQ 群**：电气工程学院学生会学术部官方群
+* **钉钉群**：
+    扫描下方二维码加入 EEStUdy-Place 贡献者钉钉群：
+
+    ![钉钉群二维码](./About/assets/Dingdinggroup.jpg)
 
 ## 🙏 致谢
 
