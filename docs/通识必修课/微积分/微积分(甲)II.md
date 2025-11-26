@@ -1,7 +1,7 @@
 # 微积分(甲)II
 
 
-## 课程学习内容
+<!--## 课程学习内容
 
 <课程学习内容>
 
@@ -26,6 +26,7 @@
 === "<教师 2>"
 
     <分数构成，可具体介绍各部分，如作业情况、实验内容及形式、考试范围及形式等>
+
 
 
 
@@ -62,8 +63,11 @@ This browser does not support PDFs
 <a class="down-button" target="_blank" href="xmind文件链接" markdown="1">:fontawesome-solid-download: 下载</a>
 </div>
 ```
+-->
 
 ## 课程经验分享
+
+=== "CBY 22级电子信息工程"
 
     **一、从迷茫走向坚定**
     
