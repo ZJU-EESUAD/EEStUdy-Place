@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- Created with Inkscape (https://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:dc="https://purl.org/dc/elements/1.1/"
+   xmlns:cc="https://creativecommons.org/ns#"
+   xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="https://www.w3.org/2000/svg"
+   xmlns="https://www.w3.org/2000/svg"
+   xmlns:sodipodi="https://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="https://www.inkscape.org/namespaces/inkscape"
    width="75.320129mm"
    height="92.604164mm"
    viewBox="0 0 75.320129 92.604164"
@@ -64,7 +64,7 @@
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+           rdf:resource="https://purl.org/dc/dcmitype/StillImage" />
         <dc:title>PDF file icon</dc:title>
         <dc:date>08/10/2018</dc:date>
         <dc:creator>
@@ -80,22 +80,22 @@
         <dc:description>Fuente del texto &quot;PDF&quot;:
 Franklin Gothic Medium Cond</dc:description>
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+           rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+         rdf:about="https://creativecommons.org/licenses/by-sa/4.0/">
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+           rdf:resource="https://creativecommons.org/ns#Reproduction" />
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
+           rdf:resource="https://creativecommons.org/ns#Distribution" />
         <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Notice" />
+           rdf:resource="https://creativecommons.org/ns#Notice" />
         <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Attribution" />
+           rdf:resource="https://creativecommons.org/ns#Attribution" />
         <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+           rdf:resource="https://creativecommons.org/ns#DerivativeWorks" />
         <cc:requires
-           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+           rdf:resource="https://creativecommons.org/ns#ShareAlike" />
       </cc:License>
     </rdf:RDF>
   </metadata>

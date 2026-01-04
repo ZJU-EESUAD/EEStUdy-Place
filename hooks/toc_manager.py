@@ -201,7 +201,7 @@ class TOCManager:
         """
         # 保持绝对 URL 不变
         # print(path)
-        if path.startswith(("http://", "https://", "#")):
+        if path.startswith(("https://", "https://", "#")):
             return path
             
         # 处理页内锚点
