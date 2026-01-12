@@ -23,7 +23,7 @@
   --md-text-bg-color: #F9F8F4;
 }
 
-/* 暗色模式 - Slate方案适配 */
+/* 暗色模式 - Slate 方案适配 */
 [data-md-color-scheme="slate"] {
   /* 主色 - 金箔色（暗色背景上提亮） */
   --md-primary-fg-color: #D4AF7A;
