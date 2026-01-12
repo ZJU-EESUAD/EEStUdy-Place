@@ -1,7 +1,7 @@
 site/
 .cache/
 .editorconfig
-
+.spec-workflow/
 # IDE and Editor Configurations
 **/.idea/
 .idea/

@@ -26,8 +26,8 @@ nav:
   - 通识必修课:
     - 通识必修课/index.md
     - 微积分: 
-      - 微积分(甲)I、II: 通识必修课/微积分/微积分1.md
-      - 微积分(甲)II: 通识必修课/微积分/微积分2.md
+      - 微积分(甲)I、II: 通识必修课/微积分/微积分一.md
+      - 微积分(甲)II: 通识必修课/微积分/微积分二.md
     - 大学物理: 通识必修课/大学物理/大学物理.md
     - 毛泽东思想概论: 通识必修课/毛泽东思想概论/毛泽东思想概论.md
   - 专业基础课:
@@ -225,28 +225,28 @@ theme:
     repo: fontawesome/brands/github
 
   palette:
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-      primary: blue #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
-      accent: indigo # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+        name: 切换到暗色模式
+      primary: custom
+      accent: amber
 
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo #, [red, pink, purple, deep, purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue, grey, black, white]
-      accent:  blue # [red, pink, purple, deep, purple, indigo, blue, light, blue, cyan, teal, green, light, green, lime, yellow, amber, orange, deep orange]
+      primary: custom
+      accent: amber
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换到亮色模式
 
 extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - assets/javascripts/katex.js
+  - https://unpkg.com/three@0.160.0/build/three.min.js  # Three.js 库
+  - assets/javascripts/home-animations.js  # 首页 3D 线框动画
 
 
 extra_css:

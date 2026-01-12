@@ -1,5 +1,5 @@
 # .github/workflows/ssh-upload.yml
-# 将gh-pages分支的文件上传到服务器
+# 将 gh-pages 分支的文件上传到服务器
 name: upload-to-server
 
 on:

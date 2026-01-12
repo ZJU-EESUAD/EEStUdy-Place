@@ -28,7 +28,7 @@ body:
     attributes:
       label: 课程名称
       description: 请填写具体的课程名称
-      placeholder: 例如：电路与电子技术I、II
+      placeholder: 例如：电路与电子技术 I、II
     validations:
       required: true
       
