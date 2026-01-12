@@ -1,10 +1,176 @@
-[data-md-color-scheme="youtube"] {
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
-    background: linear-gradient(to right, rgba(255, 204, 0, 0.1), rgba(255, 102, 178, 0.1)); /* 使用 rgba 表示颜色，最后一个参数是透明度 */
-  }
+/* ========== 诺贝尔奖配色方案 - 米色 #F9F8F4 和金箔色 #C5A059 ========== */
 
-p{
+/* 亮色模式 - 默认方案 */
+[data-md-color-scheme="default"] {
+  /* 主色 - 金箔色 */
+  --md-primary-fg-color: #C5A059;
+  --md-primary-fg-color--dark: #A88645;
+  --md-primary-fg-color--light: #D4AF7A;
+  --md-primary-bg-color: #F9F8F4;
+  --md-primary-bg-color--dark: #F0EFE9;
+
+  /* 强调色 - 金箔色变体 */
+  --md-accent-fg-color: #C5A059;
+  --md-accent-fg-color--transparent: rgba(197, 160, 89, 0.1);
+
+  /* 背景色 - 米色 */
+  --md-bg-color: #F9F8F4;
+  --md-bg-color--dark: #F0EFE9;
+
+  /* 文字颜色 */
+  --md-typeset-color: #2C2C2C;
+  --md-text-fg-color: #2C2C2C;
+  --md-text-bg-color: #F9F8F4;
+}
+
+/* 暗色模式 - Slate方案适配 */
+[data-md-color-scheme="slate"] {
+  /* 主色 - 金箔色（暗色背景上提亮） */
+  --md-primary-fg-color: #D4AF7A;
+  --md-primary-fg-color--dark: #C5A059;
+  --md-primary-fg-color--light: #E8C69B;
+  --md-primary-bg-color: #1E1E1E;
+  --md-primary-bg-color--dark: #141414;
+
+  /* 强调色 - 金箔色 */
+  --md-accent-fg-color: #D4AF7A;
+  --md-accent-fg-color--transparent: rgba(212, 175, 122, 0.15);
+
+  /* 背景色 - 深灰 */
+  --md-bg-color: #1E1E1E;
+  --md-bg-color--dark: #141414;
+
+  /* 文字颜色 - 浅色 */
+  --md-typeset-color: #E0E0E0;
+  --md-text-fg-color: #E0E0E0;
+  --md-text-bg-color: #1E1E1E;
+}
+
+/* ========== 标题栏颜色修复 ========== */
+
+/* 亮色模式标题栏 */
+[data-md-color-scheme="default"] .md-header {
+  background-color: #F9F8F4;
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="default"] .md-header__topic {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="default"] .md-header__title {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="default"] .md-header__source {
+  color: #C5A059;
+}
+
+/* 暗色模式标题栏 */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #1E1E1E;
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="slate"] .md-header__title {
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="slate"] .md-header__source {
+  color: #D4AF7A;
+}
+
+/* 导航栏颜色 */
+[data-md-color-scheme="default"] .md-nav__item {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item {
+  color: #E0E0E0;
+}
+
+/* 侧边栏颜色 - 保持默认样式 */
+
+/* 侧边栏导航链接 */
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #C5A059;
+  background-color: rgba(197, 160, 89, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #D4AF7A;
+  background-color: rgba(212, 175, 122, 0.1);
+}
+
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+  color: #C5A059;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+  color: #D4AF7A;
+}
+
+/* 搜索框颜色 */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: #F0EFE9;
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #141414;
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="default"] .md-search__input {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+  color: #E0E0E0;
+}
+
+/* 标签页导航颜色 */
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: #F9F8F4;
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #1E1E1E;
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #2C2C2C;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #E0E0E0;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link--active {
+  color: #C5A059;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link--active {
+  color: #D4AF7A;
+}
+
+/* ========== 全局样式优化 ========== */
+
+p {
   letter-spacing: 1px;
   line-height: 1.8;
 }
@@ -13,15 +179,35 @@ h1 {
   font-weight: 800 !important;
 }
 
-h2, h3
-{
+h2, h3 {
   font-weight: 700 !important;
 }
-/* 居中显示所有图片 */
-img {
-  display: block;         /* 将图片转换为块级元素 */
-  margin-left: auto;      /* 设置左边距自动 */
-  margin-right: auto;     /* 设置右边距自动 */
+
+/* 标题颜色适配 */
+[data-md-color-scheme="default"] h1,
+[data-md-color-scheme="default"] h2,
+[data-md-color-scheme="default"] h3 {
+  color: #2C2C2C;
 }
 
-  
+[data-md-color-scheme="slate"] h1,
+[data-md-color-scheme="slate"] h2,
+[data-md-color-scheme="slate"] h3 {
+  color: #E8C69B;
+}
+
+/* 居中显示所有图片 */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 链接颜色 */
+[data-md-color-scheme="default"] a {
+  color: #C5A059;
+}
+
+[data-md-color-scheme="slate"] a {
+  color: #D4AF7A;
+}
