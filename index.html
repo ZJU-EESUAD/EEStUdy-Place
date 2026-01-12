@@ -75,7 +75,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="amber">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -126,9 +126,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="amber"  aria-label="切换到暗色模式"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="切换到暗色模式" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
@@ -136,9 +136,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="amber"  aria-label="切换到亮色模式"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="切换到亮色模式" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
@@ -440,10 +440,9 @@
   }
 
   body {
-    background-color: rgb(31, 48, 85);
-    /* 设置背景颜色为黑色 */
-    color: white;
-    /* 设置文字颜色为白色 */
+    /* 使用 CSS 变量支持暗色模式切换 */
+    background-color: var(--md-bg-color, #F9F8F4);
+    color: var(--md-typeset-color, #2C2C2C);
   }
 
   @media screen and (min-width:60em) {
@@ -454,78 +453,40 @@
 
   @media screen and (min-width:76.25em) {
     .md-sidebar--primary {
-      display: none·
+      display: none
     }
   }
 </style>
 
+<!-- 添加背景容器 -->
+<div class="hero-background">
+  <canvas id="particles-canvas"></canvas>
+</div>
+
 <link href="assets/stylesheets/home.css" rel="stylesheet" type="text/css">
+
+<!-- Hero 内容 - 论文风格布局 -->
 <section class="hero" id="hero">
-  <h2 class="typewriter hero_header" id="typewriter-header">EEStUdy Place <span class="light">by</span> <span
-      style="color: #c41502e0;">EESUAD</span>
-  </h2>
-  <br>
-  <p class="typewriter tagline" id="typewriter-tagline">Share the knowledge with <span class="blue">you</span></p>
+  <div class="hero-content">
+    <!-- 顶部标签 -->
+    <div class="hero-label">ZHEJIANG UNIVERSITY · EE STUDENT UNION</div>
+
+    <!-- 核心标题 -->
+    <h1 class="hero-title">EEStUdy Place</h1>
+
+    <!-- 副标题说明 -->
+    <p class="hero-subtitle">
+      电气工程学院学生会学术部 · 知识共享平台<br>
+      Sharing knowledge with you
+    </p>
+  </div>
 </section>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function typeWriter(element, text, speed, callback) {
-      let i = 0;
-      let isTag = false;
-      let temp = '';
-
-      function type() {
-        if (i < text.length) {
-          let char = text.charAt(i);
-          temp += char;
-
-          if (char === '<') {
-            isTag = true;
-          } else if (char === '>') {
-            isTag = false;
-            element.innerHTML = temp;  // Only update innerHTML when the tag is complete
-          } else if (!isTag) {
-            element.innerHTML = temp;
-          }
-          i++;
-          if (!isTag) setTimeout(type, speed);
-          else type();
-        } else {
-          if (callback) callback();
-        }
-      }
-      type();
-    }
-
-    function startTyping() {
-      const headerElement = document.querySelector('.hero_header');
-      const taglineElement = document.querySelector('.tagline');
-
-      const headerHTML = 'EEStUdy Place <span class="light">by</span> <span style="color: #c41502e0;">EESUAD</span>';
-      const taglineHTML = 'Share the knowledge with <span class="blue">you</span>';
-
-      headerElement.textContent = '';
-      taglineElement.textContent = '';
-
-      typeWriter(headerElement, headerHTML, 150, () => {
-        headerElement.classList.remove('typewriter');
-        console.log('Typing complete, pausing cursor animation for', headerElement);
-        typeWriter(taglineElement, taglineHTML, 150);
-      });
-    }
-
-    startTyping();
-    setInterval(startTyping, 20000); // Repeat every 20 seconds
-  });
-</script>
-
-<section class="about" id="about" style="max-width: 61rem;margin-left:auto; margin-right:auto;">
-  <h2>关于 <span style="letter-spacing: 4px;  color: #eae1fe;">EEStUdy Place</span></h2>
-    <p>EEStUdy Place 是由浙江大学<span style="font-weight: bold;color: #fffce4;">电气工程学院学生会学术部</span>搭建的资源的平台。
-    我们将总结电气工程学院所包含三个专业（电气工程及其自动化、电子信息工程、自动化）的所有专业课程的课程攻略、学长学姐心得等内容</p>
+<section class="about" id="about">
+  <h2>关于 EEStUdy Place</h2>
+  <p>EEStUdy Place 是由浙江大学电气工程学院学生会学术部搭建的资源平台。</p>
+  <p>我们将总结电气工程学院所包含三个专业（电气工程及其自动化、电子信息工程、自动化）的所有专业课程的课程攻略、学长学姐心得等内容。</p>
   <p>无论您是在寻找教程、探索答案，还是只是了解电气工程学院，EEStUdy Place 都希望能满足您的需求。</p>
-  <p>我们也希望你能成为 网站成员的一部分，
-    点击<a href="./About/Contributing/index.html" style="font-weight:bold; color: aqua;">我要投稿！</a>查看详情</p>
+  <p>我们也希望你能成为网站成员的一部分，点击<a href="./About/Contributing/index.html">我要投稿！</a>查看详情</p>
 </section>
 
 
@@ -1115,7 +1076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%861.html" class="md-nav__link">
+      <a href="%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%80.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1136,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%862.html" class="md-nav__link">
+      <a href="%E9%80%9A%E8%AF%86%E5%BF%85%E4%BF%AE%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BA%8C.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3578,7 +3539,7 @@
         
   
   <span class="md-ellipsis">
-    现代电机CAD技术
+    现代电机 CAD 技术
   </span>
   
 
@@ -5398,6 +5359,10 @@
         <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
         <script src="assets/javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+      
+        <script src="assets/javascripts/home-animations.js"></script>
       
     
   </body>

@@ -1,132 +1,294 @@
-/* Hero Section */
-.typewriter {
-    display: inline-block;
-    overflow: hidden;
-    border-right: solid black;
-    /* Cursor effect */
-    animation: blink-caret 0.75s step-end infinite;
-    word-wrap: break-word;
-    /* Ensure words break and wrap correctly */
+/* ========== 背景动态效果 - 诺贝尔奖配色 ========== */
+
+.hero-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  background: #F9F8F4;
+  transition: background 0.3s ease;
 }
+
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(197, 160, 89, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(197, 160, 89, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(197, 160, 89, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, #F9F8F4 0%, #F5F3EC 50%, #F9F8F4 100%);
+  animation: gradient-shift 15s ease-in-out infinite;
+  transition: opacity 0.3s ease;
+}
+
+/* 暗色模式适配 */
+[data-md-color-scheme="slate"] .hero-background {
+  background: #1E1E1E;
+}
+
+[data-md-color-scheme="slate"] .hero-background::before {
+  background:
+    radial-gradient(circle at 20% 50%, rgba(212, 175, 122, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 122, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(212, 175, 122, 0.06) 0%, transparent 50%),
+    linear-gradient(135deg, #1E1E1E 0%, #141414 50%, #1E1E1E 100%);
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate(5%, 5%) rotate(5deg);
+  }
+  66% {
+    transform: translate(-5%, -5%) rotate(-5deg);
+  }
+}
+
+/* Canvas 粒子画布 */
+#particles-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ========== Hero Section - 论文风格 ========== */
 
 .hero {
-    font-family: "Source Sans Pro", sans-serif;
-    background-color: #CBE3F7;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 450px;
-    width: 100%;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
 }
 
-.hero_header {
-    text-align: center;
-    color: #6A33E6;
-    letter-spacing: 4px;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2rem;
-    /* Default font size */
+/* Hero 内容容器 - 极简透明 */
+.hero-content {
+  /* 入场动画 */
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fade-in-up 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+
+  /* 文字居中 */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.blue {
-    color: #0B7AEF;
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
-.light {
-    color: #0B3ADC;
+/* ========== 论文风格排版 ========== */
+
+/* 顶部标签 */
+.hero-label {
+  font-size: 0.75rem;
+  color: #CCCCCC;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
 }
 
-.tagline {
-    color: #16273d;
-    margin-top: 4px;
-    font-weight: lighter;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.3rem;
-    /* Default font size */
+/* 核心标题 */
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #C5A059;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.2;
+  font-family:
+    "Georgia",
+    "Times New Roman",
+    serif;
+  transition: color 0.3s ease;
 }
+
+/* 副标题说明 */
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: #5C5C5C;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 1rem auto 0;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+/* 暗色模式文字适配 */
+[data-md-color-scheme="slate"] .hero-label {
+  color: #888888;
+}
+
+[data-md-color-scheme="slate"] .hero-title {
+  color: #D4AF7A;
+}
+
+[data-md-color-scheme="slate"] .hero-subtitle {
+  color: #B0B0B0;
+}
+
+/* ========== About Section - 论文风格 ========== */
 
 .about {
-    width:85%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    margin-top: 10px;
+  width: 85%;
+  max-width: 800px;
+  margin: 2rem auto 6rem;
+  /* 透明背景 */
+  background: transparent;
+  padding: 3rem 2rem;
+  border: none;
+  box-shadow: none;
+  transition: color 0.3s ease;
 }
 
 .about h2 {
-    color: #9dc9fce0;
-    font-size: 4em;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
+  color: #2C2C2C;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  text-align: center;
+  transition: color 0.3s ease;
 }
 
 .about p {
-    color: white;
-    font-size: 1.6em;
-    line-height: 1.5;
-    letter-spacing: 1px;
+  color: #5C5C5C;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  text-align: left;
+  transition: color 0.3s ease;
 }
 
-/* Responsive adjustments */
+.about a {
+  color: #C5A059;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.3s ease;
+}
+
+.about a:hover {
+  border-bottom-color: #C5A059;
+}
+
+/* About Section 暗色模式适配 */
+[data-md-color-scheme="slate"] .about h2 {
+  color: #D4AF7A;
+}
+
+[data-md-color-scheme="slate"] .about p {
+  color: #B0B0B0;
+}
+
+[data-md-color-scheme="slate"] .about a {
+  color: #D4AF7A;
+}
+
+[data-md-color-scheme="slate"] .about a:hover {
+  border-bottom-color: #D4AF7A;
+}
+
+/* ========== 响应式设计 ========== */
+
 @media (max-width: 1200px) {
-    .hero_header {
-        font-size: 1.67rem;
-    }
-
-    .tagline {
-        font-size: 1.25rem;
-    }
-
-    .about h2{
-        font-size: 3.6em;
-        letter-spacing: 2px;
-    }
+  .hero-title {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .hero_header {
-        font-size: 1.53rem;
-    }
+  .hero-content {
+    padding: 1.5rem;
+  }
 
-    .tagline {
-        font-size: 1rem;
-    }
-    .about h2{
-        font-size: 3em;
-        letter-spacing: 2px;
-    }
+  .hero-label {
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 2rem 1.5rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .hero_header {
-        font-size: 1.22rem;
-        /* Adjust width for smaller screens */
-        letter-spacing: 2px;
-    }
+  .hero-label {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+  }
 
-    .tagline {
-        font-size: 0.675rem;
-    }
-    .about h2{
-        font-size: 2.5em;
-        letter-spacing: 2px;
-    }
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .about h2 {
+    font-size: 1.25rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
 }
 
-@keyframes blink-caret {
+@media (min-width: 1920px) {
+  .hero-title {
+    font-size: 5rem;
+  }
 
-    from,
-    to {
-        border-color: transparent;
-    }
-
-    50% {
-        border-color: black;
-    }
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
 }
+
