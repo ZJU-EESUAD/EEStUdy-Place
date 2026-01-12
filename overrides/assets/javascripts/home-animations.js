@@ -1,7 +1,7 @@
 /**
  * EEStUdy Place 首页 3D 线框模型
- * 使用 Three.js 实现真正的 3D 渲染
- * 诺贝尔奖配色方案：米色 #F9F8F4 和金箔色 #C5A059
+ * 使用 Three.js
+ * 配色方案：米色 #F9F8F4 和金箔色 #C5A059
  */
 
 (function() {

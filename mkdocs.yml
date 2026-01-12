@@ -207,7 +207,7 @@ theme:
     - header.autohide
     - navigation.instant
     - navigation.instant.progress
-    - navigation.indexes  # 在导航中显示索引页, 即index.md不占用新的页面
+    - navigation.indexes
     - navigation.tracking
     - content.code.annotate
     - toc.follow
